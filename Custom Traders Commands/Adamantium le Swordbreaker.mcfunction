@@ -1,0 +1,192 @@
+/summon villager -312 86 187 {
+    VillagerData: {
+        profession: cartographer,
+        level: 5,
+        type: plains
+    },
+    Invulnerable: 1,
+    PersistenceRequired: 1,
+    Silent: 1,
+    NoAI: 1,
+    Rotation: [270f, 0f],
+    CustomName: "Adamantium le Swordbreaker",
+    active_effects: [
+        {
+            id: regeneration,
+            amplifier: 0,
+            duration: 999999,
+            show_particles: 0b
+        }
+    ],
+    Offers: {
+        Recipes: [
+            {
+                buy: {id: gold_block, count: 10},
+                buyB: {id: netherite_sword, count: 1},
+                sell: {
+                    id: netherite_sword,
+                    count: 1,
+                    components: {
+                        custom_name: "Adamantium Impervium Sword",
+                        lore: ["Minecraft Story Mode"],
+                        enchantments: {
+                            sweeping_edge: 7,
+                            bane_of_arthropods: 5,
+                            looting: 6,
+                            unbreaking: 5
+                        }
+                    }
+                },
+                xp: 3,
+                priceMultiplier: 0.05f,
+                specialPrice: -2,
+                maxUses: 9999999
+            },
+            {
+                buy: {id: gold_block, count: 10},
+                buyB: {id: netherite_axe, count: 1},
+                sell: {
+                    id: netherite_axe,
+                    count: 1,
+                    components: {
+                        custom_name: "Adamantium Impervium Axe",
+                        lore: ["Minecraft Story Mode"],
+                        enchantments: {
+                            efficiency: 9,
+                            unbreaking: 9
+                        }
+                    }
+                },
+                xp: 3,
+                priceMultiplier: 0.05f,
+                specialPrice: -2,
+                maxUses: 9999999
+            },
+            {
+                buy: {id: gold_block, count: 10},
+                buyB: {id: netherite_pickaxe, count: 1},
+                sell: {
+                    id: netherite_pickaxe,
+                    count: 1,
+                    components: {
+                        custom_name: "Adamantium Impervium Pickaxe",
+                        lore: ["Minecraft Story Mode"],
+                        enchantments: {
+                            efficiency: 5,
+                            silk_touch: 1,
+                            unbreaking: 3,
+                            vanishing_curse: 1
+                        }
+                    }
+                },
+                xp: 3,
+                priceMultiplier: 0.05f,
+                specialPrice: -2,
+                maxUses: 9999999
+            },
+            {
+                buy: {id: diamond_block, count: 3},
+                buyB: {id: netherite_sword, count: 1},
+                sell: {
+                    id: netherite_sword,
+                    count: 1,
+                    components: {
+                        custom_name: "Shieldbreaker Sword",
+                        lore: ["Minecraft Story Mode"],
+                        enchantments: {
+                            sweeping_edge: 3,
+                            bane_of_arthropods: 5,
+                            knockback: 2,
+                            unbreaking: 3
+                        }
+                    }
+                },
+                xp: 3,
+                priceMultiplier: 0.05f,
+                specialPrice: -2,
+                maxUses: 9999999
+            },
+            {
+                buy: {id: diamond_block, count: 3},
+                buyB: {id: netherite_axe, count: 1},
+                sell: {
+                    id: netherite_axe,
+                    count: 1,
+                    components: {
+                        custom_name: "Shieldbreaker Axe",
+                        lore: ["Minecraft Story Mode"],
+                        enchantments: {
+                            sharpness: 5,
+                            unbreaking: 3,
+                            vanishing_curse: 1
+                        }
+                    }
+                },
+                xp: 3,
+                priceMultiplier: 0.05f,
+                specialPrice: -2,
+                maxUses: 9999999
+            },
+            {
+                buy: {id: diamond_block, count: 2},
+                buyB: {id: iron_block, count: 9},
+                sell: {
+                    id: bow,
+                    count: 1,
+                    components: {
+                        custom_name: "Shieldbreaker Bow",
+                        lore: ["Minecraft Story Mode"],
+                        enchantments: {
+                            power: 5,
+                            infinity: 1
+                        }
+                    }
+                },
+                xp: 3,
+                priceMultiplier: 0.05f,
+                specialPrice: -1,
+                maxUses: 9999999
+            },
+            {
+                buy: {id: diamond, count: 5},
+                buyB: {id: iron_block, count: 5},
+                sell: {
+                    id: shield,
+                    count: 1,
+                    components: {
+                        custom_name: "Swordbreaker Shield",
+                        lore: ["Minecraft story mode"],
+                        enchantments: {
+                            unbreaking: 3,
+                            mending: 1
+                        }
+                    }
+                },
+                xp: 3,
+                priceMultiplier: 0.05f,
+                specialPrice: -2,
+                maxUses: 9999999
+            },
+            {
+                buy: {id: diamond, count: 5},
+                buyB: {id: gold_block, count: 2},
+                sell: {
+                    id: shield,
+                    count: 1,
+                    components: {
+                        custom_name: "Axebreaker Shield",
+                        lore: ["MInecraft Core mode"],
+                        enchantments: {
+                            unbreaking: 3,
+                            mending: 1
+                        }
+                    }
+                },
+                xp: 3,
+                priceMultiplier: 0.05f,
+                specialPrice: -2,
+                maxUses: 9999999
+            }
+        ]
+    }
+}

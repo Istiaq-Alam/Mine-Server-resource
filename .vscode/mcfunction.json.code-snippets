@@ -1,0 +1,38 @@
+{
+	// Place your Mine-Server workspace snippets here. Each snippet is defined under a snippet name and has a scope, prefix, body and 
+	// description. Add comma separated ids of the languages where the snippet is applicable in the scope field. If scope 
+	// is left empty or omitted, the snippet gets applied to all languages. The prefix is what is 
+	// used to trigger the snippet and the body will be expanded and inserted. Possible variables are: 
+	// $1, $2 for tab stops, $0 for the final cursor position, and ${1:label}, ${2:another} for placeholders. 
+	// Placeholders with the same ids are connected.
+	// Example:
+	// "Print to console": {
+	// 	"scope": "javascript,typescript",
+	// 	"prefix": "log",
+	// 	"body": [
+	// 		"console.log('$1');",
+	// 		"$2"
+	// 	],
+	// 	"description": "Log output to console"
+	// }
+{
+  "Villager Summon Template": {
+    "prefix": "villager",
+    "body": [
+      "/summon villager ${1:-312} ${2:86} ${3:187} {",
+      "  VillagerData:{profession:${4:cartographer},level:${5:5},type:${6:plains}},",
+      "  Invulnerable:1,PersistenceRequired:1,Silent:1,NoAI:1,Rotation:[270f,0f],",
+      "  CustomName:\"${7:Custom Trader}\",",
+      "  Offers:{Recipes:[",
+      "    {buy:{id:${8:gold_block},count:${9:10}},sell:{id:${10:netherite_sword},count:1,components:{custom_name:\"${11:Epic Sword}\",enchantments:{sharpness:${12:10},knockback:${13:5}}}},xp:3,priceMultiplier:0.05f,maxUses:9999999}",
+      "  ]}",
+      "}"
+    ],
+    "description": "Summon a custom villager with trades"
+  }
+}
+
+
+
+
+}
