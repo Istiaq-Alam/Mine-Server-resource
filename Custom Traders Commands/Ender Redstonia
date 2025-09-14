@@ -1,0 +1,114 @@
+/summon villager -312 86 182 {
+  VillagerData: {
+    profession: librarian,
+    level: 2,
+    type: savanna
+  },
+  Invulnerable: 1,
+  PersistenceRequired: 1,
+  Silent: 1,
+  NoAI: 1,
+  Rotation: [315f, 0f],
+  CustomName: "Ender Redstonia",
+  active_effects: [
+    {
+      id: regeneration,
+      amplifier: 0,
+      duration: 999999,
+      show_particles: 0b
+    }
+  ],
+  Offers: {
+    Recipes: [
+      {
+        buy: {id: emerald, count: 33},
+        buyB: {id: netherite_sword, count: 1},
+        sell: {
+          id: netherite_sword,
+          count: 1,
+          components: {
+            custom_name: "Ender Defender Sword",
+            lore: ["Strikes with crushing force,",
+                   "bane of crawling foes."],
+            enchantments: {bane_of_arthropods: 6, knockback: 5, unbreaking: 4}
+          }
+        },
+        xp: 3,
+        priceMultiplier: 0.05f,
+        specialPrice: -2,
+        maxUses: 9999999
+      },
+      {
+        buy: {id: emerald, count: 32},
+        buyB: {id: netherite_axe, count: 1},
+        sell: {
+          id: netherite_axe,
+          count: 1,
+          components: {
+            custom_name: "Ender Defender Axe",
+            lore: ["A sharp edge of the void,",
+                   "cursed to fade away."],
+            enchantments: {sharpness: 7, vanishing_curse: 1}
+          }
+        },
+        xp: 3,
+        priceMultiplier: 0.05f,
+        specialPrice: -2,
+        maxUses: 9999999
+      },
+      {
+        buy: {id: emerald, count: 31},
+        sell: {
+          id: netherite_pickaxe,
+          count: 1,
+          components: {
+            custom_name: "Ender Defender Pickaxe",
+            lore: ["Cuts stone cleanly, preserving",
+                   "even the rarest ores."],
+            enchantments: {efficiency: 6, silk_touch: 1}
+          }
+        },
+        xp: 3,
+        priceMultiplier: 0.05f,
+        specialPrice: -2,
+        maxUses: 9999999
+      },
+      {
+        buy: {id: emerald, count: 30},
+        buyB: {id: crossbow, count: 1},
+        sell: {
+          id: crossbow,
+          count: 1,
+          components: {
+            custom_name: "Ender Defender Crossbow",
+            lore: ["Fires a storm of bolts,",
+                   "but cursed to vanish in battle."],
+            enchantments: {multishot: 6, vanishing_curse: 1}
+          }
+        },
+        xp: 3,
+        priceMultiplier: 0.05f,
+        specialPrice: -2,
+        maxUses: 9999999
+      },
+      {
+        buy: {id: redstone_block, count: 10},
+        buyB: {id: lapis_block, count: 10},
+        sell: {
+          id: shield,
+          count: 1,
+          components: {
+            custom_name: "Redstonia Shield",
+            lore: ["Powered by redstone and lapis,",
+                   "but bound by a fading curse."],
+            enchantments: {unbreaking: 4, vanishing_curse: 1}
+          }
+        },
+        xp: 3,
+        priceMultiplier: 0.05f,
+        specialPrice: -2,
+        maxUses: 9999999
+      }
+    ]
+  }
+}

@@ -1,0 +1,212 @@
+/summon villager -307 86 192 {
+  VillagerData: {
+    profession: librarian,
+    level: 2,
+    type: snow
+  },
+  Invulnerable: 1,
+  PersistenceRequired: 1,
+  Silent: 1,
+  NoAI: 1,
+  Rotation: [180f, 0f],
+  CustomName: "Romeo's Weapon",
+  active_effects: [
+    {id: regeneration, amplifier: 0, duration: 999999, show_particles: 0b}
+  ],
+  Offers: {
+    Recipes: [
+      {
+        buy: {id: redstone_block, count: 8},
+        buyB: {id: mace, count: 1},
+        sell: {
+          id: mace,
+          count: 1,
+          components: {
+            custom_name: "Romeo's Hammer",
+            lore: [
+              "Breaks through armor with ease",
+              "Ignites foes on strike",
+              "Built to endure long battles"
+            ],
+            enchantments: {
+              breach: 6,
+              fire_aspect: 5,
+              unbreaking: 5
+            }
+          }
+        },
+        xp: 3,
+        priceMultiplier: 0.05f,
+        specialPrice: -2,
+        maxUses: 9999999
+      },
+      {
+        buy: {id: redstone_block, count: 12},
+        buyB: {id: mace, count: 1},
+        sell: {
+          id: mace,
+          count: 1,
+          components: {
+            custom_name: "Romeo's Mace",
+            lore: [
+              "Harnesses the wind for power",
+              "Holy weapon against the undead",
+              "Strong and unyielding"
+            ],
+            enchantments: {
+              wind_burst: 5,
+              smite: 5,
+              unbreaking: 5
+            }
+          }
+        },
+        xp: 3,
+        priceMultiplier: 0.05f,
+        specialPrice: -1,
+        maxUses: 9999999
+      },
+      {
+        buy: {id: redstone_block, count: 2},
+        buyB: {id: totem_of_undying, count: 1},
+        sell: {
+          id: totem_of_undying,
+          count: 1,
+          components: {
+            custom_name: "Romeo of Undying",
+            lore: [
+              "Grants a second chance",
+              "Bearer defies death itself"
+            ]
+          }
+        },
+        xp: 3,
+        priceMultiplier: 0.05f,
+        specialPrice: -1,
+        maxUses: 9999999
+      },
+      {
+        buy: {id: redstone_block, count: 10},
+        buyB: {id: netherite_sword, count: 1},
+        sell: {
+          id: netherite_sword,
+          count: 1,
+          components: {
+            custom_name: "Romeo's Sword",
+            lore: [
+              "Sweeps through groups with ease",
+              "Deadly against arthropods",
+              "Durable and battle-forged"
+            ],
+            enchantments: {
+              sweeping_edge: 5,
+              bane_of_arthropods: 5,
+              unbreaking: 5
+            }
+          }
+        },
+        xp: 3,
+        priceMultiplier: 0.05f,
+        specialPrice: -2,
+        maxUses: 9999999
+      },
+      {
+        buy: {id: redstone_block, count: 8},
+        buyB: {id: netherite_axe, count: 1},
+        sell: {
+          id: netherite_axe,
+          count: 1,
+          components: {
+            custom_name: "Romeo's Axe",
+            lore: [
+              "Cuts with unmatched sharpness",
+              "Chops swiftly and efficiently",
+              "Resists wear and tear"
+            ],
+            enchantments: {
+              sharpness: 5,
+              efficiency: 5,
+              unbreaking: 5
+            }
+          }
+        },
+        xp: 3,
+        priceMultiplier: 0.05f,
+        specialPrice: -2,
+        maxUses: 9999999
+      },
+      {
+        buy: {id: redstone_block, count: 7},
+        buyB: {id: netherite_pickaxe, count: 1},
+        sell: {
+          id: netherite_pickaxe,
+          count: 1,
+          components: {
+            custom_name: "Romeo's Pickaxe",
+            lore: [
+              "Mines with lightning speed",
+              "Lasts for eternity",
+              "Self-mends when used"
+            ],
+            enchantments: {
+              efficiency: 5,
+              unbreaking: 5,
+              mending: 1
+            }
+          }
+        },
+        xp: 3,
+        priceMultiplier: 0.05f,
+        specialPrice: -2,
+        maxUses: 9999999
+      },
+      {
+        buy: {id: redstone, count: 17},
+        buyB: {id: crossbow, count: 1},
+        sell: {
+          id: crossbow,
+          count: 1,
+          components: {
+            custom_name: "Romeo's Crossbow",
+            lore: [
+              "Fires multiple bolts at once",
+              "Reloads quickly in battle",
+              "Sturdy for endless fights"
+            ],
+            enchantments: {
+              multishot: 1,
+              quick_charge: 5,
+              unbreaking: 3
+            }
+          }
+        },
+        xp: 3,
+        priceMultiplier: 0.05f,
+        specialPrice: -2,
+        maxUses: 9999999
+      },
+      {
+        buy: {id: redstone_block, count: 5},
+        buyB: {id: blackstone, count: 5},
+        sell: {
+          id: shield,
+          count: 1,
+          components: {
+            custom_name: "Romeo's Shield",
+            lore: [
+              "Withstands powerful strikes",
+              "Restores itself over time"
+            ],
+            enchantments: {
+              unbreaking: 5,
+              mending: 1
+            }
+          }
+        },
+        xp: 3,
+        priceMultiplier: 0.05f,
+        specialPrice: -2,
+        maxUses: 9999999
+      }
+    ]
+  }
+}

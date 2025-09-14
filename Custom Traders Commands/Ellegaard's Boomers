@@ -1,0 +1,184 @@
+/summon villager -307 86 182 {
+  VillagerData: {
+    profession: armorer,
+    level: 2,
+    type: jungle
+  },
+  Invulnerable: 1,
+  PersistenceRequired: 1,
+  Silent: 1,
+  NoAI: 1,
+  CustomName: "Ellegaard's Boomers",
+  active_effects: [
+    {
+      id: regeneration,
+      amplifier: 0,
+      duration: 999999,
+      show_particles: 0b
+    }
+  ],
+  Offers: {
+    Recipes: [
+      {
+        buy: {id: gold_block, count: 20},
+        buyB: {id: redstone_block, count: 10},
+        sell: {
+          id: trident,
+          count: 1,
+          components: {
+            custom_name: "Ellegaard's Trident",
+            lore: ["Strikes with the fury of the sea.",
+                   "Repairs itself, but cursed to fade."],
+            enchantments: {impaling: 6, mending: 1, vanishing_curse: 1}
+          }
+        },
+        xp: 3,
+        priceMultiplier: 0.05f,
+        specialPrice: -2,
+        maxUses: 9999999
+      },
+      {
+        buy: {id: redstone_block, count: 16},
+        buyB: {id: netherite_pickaxe, count: 1},
+        sell: {
+          id: netherite_pickaxe,
+          count: 1,
+          components: {
+            custom_name: "Ellegaard's Drill",
+            lore: ["Cuts stone cleanly, unyielding yet cursed."],
+            enchantments: {silk_touch: 1, unbreaking: 5, vanishing_curse: 1}
+          }
+        },
+        xp: 3,
+        priceMultiplier: 0.05f,
+        specialPrice: -2,
+        maxUses: 9999999
+      },
+      {
+        buy: {id: gold_block, count: 5},
+        buyB: {id: netherite_sword, count: 1},
+        sell: {
+          id: netherite_sword,
+          count: 1,
+          components: {
+            custom_name: "Ellegaard's Sword",
+            lore: ["Brings doom to crawling foes.", 
+                   "Greed fuels its deadly edge."],
+            enchantments: {bane_of_arthropods: 6, looting: 5, unbreaking: 3}
+          }
+        },
+        xp: 3,
+        priceMultiplier: 0.05f,
+        specialPrice: 1,
+        maxUses: 9999999
+      },
+      {
+        buy: {id: gold_ingot, count: 27},
+        buyB: {id: netherite_axe, count: 1},
+        sell: {
+          id: netherite_axe,
+          count: 1,
+          components: {
+            custom_name: "Ellegaard's Axe",
+            lore: ["Crushes the undead with divine might."],
+            enchantments: {smite: 5, unbreaking: 5}
+          }
+        },
+        xp: 3,
+        priceMultiplier: 0.05f,
+        specialPrice: -2,
+        maxUses: 9999999
+      },
+      {
+        buy: {id: gold_ingot, count: 20},
+        buyB: {id: netherite_pickaxe, count: 1},
+        sell: {
+          id: netherite_pickaxe,
+          count: 1,
+          components: {
+            custom_name: "Ellegaard's Pickaxe",
+            lore: ["Blessed with fortune,",
+                   "cursed to vanish."],
+            enchantments: {fortune: 4, vanishing_curse: 1}
+          }
+        },
+        xp: 3,
+        priceMultiplier: 0.05f,
+        specialPrice: -2,
+        maxUses: 9999999
+      },
+      {
+        buy: {id: gold_block, count: 15},
+        buyB: {id: blackstone, count: 5},
+        sell: {
+          id: shield,
+          count: 1,
+          components: {
+            custom_name: "Ellegaard's Shield",
+            lore: ["Sturdy in battle,",
+                "yet cursed to fade away."],
+            enchantments: {unbreaking: 4, vanishing_curse: 1}
+          }
+        },
+        xp: 3,
+        priceMultiplier: 0.05f,
+        specialPrice: -2,
+        maxUses: 9999999
+      },
+      {
+        buy: {id: blackstone, count: 7},
+        buyB: {id: netherite_shovel, count: 1},
+        sell: {
+          id: netherite_shovel,
+          count: 1,
+          components: {
+            custom_name: "Ellegaard's Shovel",
+            lore: ["Efficient and precise,",
+                "preserving what it touches."],
+            enchantments: {efficiency: 3, silk_touch: 1}
+          }
+        },
+        xp: 3,
+        priceMultiplier: 0.05f,
+        specialPrice: -1,
+        maxUses: 9999999
+      },
+      {
+        buy: {id: gold_block, count: 16},
+        buyB: {id: crossbow, count: 1},
+        sell: {
+          id: crossbow,
+          count: 1,
+          components: {
+            custom_name: "Ellegaard's Crossbow",
+            lore: ["Fires swiftly,",
+                "cursed to disappear."],
+            enchantments: {quick_charge: 6, vanishing_curse: 1}
+          }
+        },
+        xp: 3,
+        priceMultiplier: 0.05f,
+        specialPrice: -2,
+        maxUses: 9999999
+      },
+      {
+        buy: {id: redstone_block, count: 10},
+        buyB: {id: mace, count: 1},
+        sell: {
+          id: mace,
+          count: 1,
+          components: {
+            custom_name: "Boom Town Stick",
+            lore: ["A thunderous weapon.", 
+                "Shatters the undead with holy bursts."],
+            enchantments: {wind_burst: 3, smite: 5, unbreaking: 2, knockback: 10, vanishing_curse: 1}
+          }
+        },
+        xp: 3,
+        priceMultiplier: 0.05f,
+        specialPrice: 1,
+        maxUses: 9999999
+      }
+    ]
+  }
+}

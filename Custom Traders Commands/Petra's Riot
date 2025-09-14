@@ -1,0 +1,173 @@
+/summon villager -302 86 192 {
+    VillagerData:{
+        profession:librarian,
+        level:2,
+        type:swamp
+    },
+    Invulnerable:1,
+    PersistenceRequired:1,
+    Silent:1,
+    NoAI:1,
+    Rotation:[180f,0f],
+    CustomName:"Petra's Riot",
+    active_effects:[
+        {id:regeneration, amplifier:0, duration:999999, show_particles:0b}
+    ],
+    Offers:{
+        Recipes:[
+            {
+                buy:{id:diamond,count:15},
+                buyB:{id:lapis_block,count:15},
+                sell:{
+                    id:bow,
+                    count:1,
+                    components:{
+                        custom_name:"Petra's Bow",
+                        lore:[
+                            "Extra Unbreaking",
+                            "Punch like shooter"
+                        ],
+                        enchantments:{
+                            unbreaking:5,
+                            punch:8
+                        }
+                    }
+                },
+                xp:3,
+                priceMultiplier:0.05f,
+                specialPrice:-2,
+                maxUses:9999999
+            },
+            {
+                buy:{id:redstone,count:20},
+                buyB:{id:netherite_sword,count:1},
+                sell:{
+                    id:netherite_sword,
+                    count:1,
+                    components:{
+                        custom_name:"Redstone Riot Sword",
+                        lore:[
+                            "Fire RedStone Sword..??"
+                        ],
+                        enchantments:{
+                            bane_of_arthropods:5,
+                            fire_aspect:5,
+                            vanishing_curse:1
+                        }
+                    }
+                },
+                xp:3,
+                priceMultiplier:0.05f,
+                specialPrice:-2,
+                maxUses:9999999
+            },
+            {
+                buy:{id:redstone,count:17},
+                buyB:{id:netherite_axe,count:1},
+                sell:{
+                    id:netherite_axe,
+                    count:1,
+                    components:{
+                        custom_name:"Redstone Riot Axe",
+                        lore:[
+                            "Extra Sharpness"
+                        ],
+                        enchantments:{
+                            sharpness:9,
+                            efficiency:6
+                        }
+                    }
+                },
+                xp:3,
+                priceMultiplier:0.1f,
+                specialPrice:-2,
+                maxUses:9999999
+            },
+            {
+                buy:{id:redstone,count:19},
+                buyB:{id:netherite_pickaxe,count:1},
+                sell:{
+                    id:netherite_pickaxe,
+                    count:1,
+                    components:{
+                        custom_name:"Redstone Riot Pickaxe",
+                        lore:[
+                            "RedStone Pickaxe with LuckyCharm"
+                        ],
+                        enchantments:{
+                            efficiency:5,
+                            fortune:5
+                        }
+                    }
+                },
+                xp:3,
+                priceMultiplier:0.05f,
+                specialPrice:-1,
+                maxUses:9999999
+            },
+            {
+                buy:{id:redstone_block,count:13},
+                buyB:{id:emerald_block,count:1},
+                sell:{
+                    id:shield,
+                    count:1,
+                    components:{
+                        custom_name:"Redstone Riot Shield",
+                        lore:[
+                            "Extra Unbreaking"
+                        ],
+                        enchantments:{
+                            unbreaking:7
+                        }
+                    }
+                },
+                xp:3,
+                priceMultiplier:0.05f,
+                specialPrice:-2,
+                maxUses:9999999
+            },
+            {
+                buy:{id:redstone,count:14},
+                buyB:{id:netherite_shovel,count:1},
+                sell:{
+                    id:netherite_shovel,
+                    count:1,
+                    components:{
+                        custom_name:"Redstone Riot Shovel",
+                        lore:[],
+                        enchantments:{
+                            silk_touch:1,
+                            unbreaking:3
+                        }
+                    }
+                },
+                xp:3,
+                priceMultiplier:0.05f,
+                specialPrice:-2,
+                maxUses:9999999
+            },
+            {
+                buy:{id:redstone,count:10},
+                buyB:{id:netherite_hoe,count:1},
+                sell:{
+                    id:netherite_hoe,
+                    count:1,
+                    components:{
+                        custom_name:"Redstone Riot Hoe",
+                        lore:[
+                            "Not Efficient..?"
+                        ],
+                        enchantments:{
+                            efficiency:6,
+                            unbreaking:3
+                        }
+                    }
+                },
+                rewardExp:0b,
+                priceMultiplier:0.05f,
+                specialPrice:-2,
+                maxUses:9999999
+            }
+        ]
+    }
+}

@@ -1,0 +1,209 @@
+/summon villager -302 86 182 {
+  VillagerData: {
+    profession: weaponsmith,
+    level: 2,
+    type: desert
+  },
+  Invulnerable: 1,
+  PersistenceRequired: 1,
+  Silent: 1,
+  NoAI: 1,
+  CustomName: "Tim's Goliath",
+  active_effects: [
+    {id: regeneration, amplifier: 0, duration: 999999, show_particles: 0b}
+  ],
+  Offers: {
+    Recipes: [
+      {
+        buy: {id: iron_block, count: 64},
+        buyB: {id: diamond_sword, count: 1},
+        sell: {
+          id: netherite_sword,
+          count: 1,
+          components: {
+            custom_name: "Tim's Sword",
+            lore: [
+              "Sweeps with burning strikes",
+              "Knockback and loot from foes",
+              "Cursed to vanish on death"
+            ],
+            enchantments: {
+              sweeping_edge: 5,
+              knockback: 3,
+              fire_aspect: 3,
+              looting: 3,
+              vanishing_curse: 1
+            }
+          }
+        },
+        xp: 3,
+        priceMultiplier: 0.05f,
+        specialPrice: -2,
+        maxUses: 9999999
+      },
+      {
+        buy: {id: iron_block, count: 27},
+        buyB: {id: netherite_axe, count: 1},
+        sell: {
+          id: netherite_axe,
+          count: 1,
+          components: {
+            custom_name: "Tim's Axe",
+            lore: [
+              "Sharp against insects",
+              "Sturdy yet simple"
+            ],
+            enchantments: {
+              bane_of_arthropods: 5,
+              unbreaking: 4
+            }
+          }
+        },
+        xp: 3,
+        priceMultiplier: 0.05f,
+        specialPrice: 1,
+        maxUses: 9999999
+      },
+      {
+        buy: {id: iron_block, count: 22},
+        buyB: {id: gold_block, count: 56},
+        sell: {
+          id: netherite_pickaxe,
+          count: 1,
+          components: {
+            custom_name: "Tim's Pickaxe",
+            lore: [
+              "Mines swiftly with precision",
+              "Unbreakable and self-mending"
+            ],
+            enchantments: {
+              efficiency: 6,
+              silk_touch: 1,
+              unbreaking: 1,
+              mending: 1
+            }
+          }
+        },
+        xp: 3,
+        priceMultiplier: 0.05f,
+        specialPrice: 1,
+        maxUses: 9999999
+      },
+      {
+        buy: {id: gold_block, count: 10},
+        buyB: {id: iron_block, count: 10},
+        sell: {
+          id: shield,
+          count: 1,
+          components: {
+            custom_name: "Tim's Shield",
+            lore: [
+              "Endures heavy blows",
+              "Forged to last"
+            ],
+            enchantments: {
+              knockback: 3,
+              unbreaking: 3
+            }
+          }
+        },
+        xp: 3,
+        priceMultiplier: 0.05f,
+        specialPrice: 1,
+        maxUses: 9999999
+      },
+      {
+        buy: {id: iron_block, count: 15},
+        buyB: {id: netherite_shovel, count: 1},
+        sell: {
+          id: netherite_shovel,
+          count: 1,
+          components: {
+            custom_name: "Tim's Shovel",
+            lore: [
+              "Durable for endless digging",
+              "Sometimes unearths riches"
+            ],
+            enchantments: {
+              unbreaking: 3,
+              fortune: 2
+            }
+          }
+        },
+        xp: 3,
+        priceMultiplier: 0.05f,
+        specialPrice: 1,
+        maxUses: 9999999
+      },
+      {
+        buy: {id: saddle, count: 1},
+        buyB: {id: netherite_sword, count: 1},
+        sell: {
+          id: netherite_sword,
+          count: 1,
+          components: {
+            custom_name: "Golden Goliath Glaive",
+            lore: [
+              "Devastates swarms with ease",
+              "Knocks back enemies"
+            ],
+            enchantments: {
+              bane_of_arthropods: 5,
+              knockback: 5
+            }
+          }
+        },
+        xp: 3,
+        priceMultiplier: 0.05f,
+        specialPrice: 2,
+        maxUses: 9999999
+      },
+      {
+        buy: {id: redstone, count: 30},
+        buyB: {id: crossbow, count: 1},
+        sell: {
+          id: crossbow,
+          count: 1,
+          components: {
+            custom_name: "Golden Goliath Ballista",
+            lore: [
+              "Reloads swiftly",
+              "Built to endure battle"
+            ],
+            enchantments: {
+              quick_charge: 5,
+              unbreaking: 2
+            }
+          }
+        },
+        xp: 3,
+        priceMultiplier: 0.05f,
+        specialPrice: -2,
+        maxUses: 9999999
+      },
+      {
+        buy: {id: redstone_block, count: 7},
+        buyB: {id: netherite_axe, count: 1},
+        sell: {
+          id: netherite_axe,
+          count: 1,
+          components: {
+            custom_name: "Golden Goliath Axe",
+            lore: [
+              "§7Holy might against the undead",
+              "§8Cursed to vanish on death"
+            ],
+            enchantments: {
+              smite: 5,
+              vanishing_curse: 1
+            }
+          }
+        },
+        xp: 3,
+        priceMultiplier: 0.05f,
+        specialPrice: -1,
+        maxUses: 9999999
+      },
+    ]
+  }
+}

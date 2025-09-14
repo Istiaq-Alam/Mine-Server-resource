@@ -1,4 +1,4 @@
-# 1. Adamantium le Swordbreaker     [Base:Gold]
+# 1. Adamantium le Swordbreaker     [Base:Gold]         ✅ Done 
 - Adamantium Impervium Sword
 - Adamantium Impervium Axe
 - Adamantium Impervium Pickaxe
@@ -7,8 +7,8 @@
 - Shieldbreaker Bow
 - Swordbreaker Shield 
 - Axebreaker Shield
-
-# 2. Blastbreaker le Dragonsbane    [Base:amethest]
+ 
+# 2. Blastbreaker le Dragonsbane    [Base:amethest]     ✅ Done
 - Blastbreaker Mace
 - AWPer Hand [cross bow]
 - Dragonsbane Sword
@@ -18,14 +18,14 @@
 - Dragonsbane Shovel
 - Dragonsbane Hoe
 
-# 3. Ender Redstonia                [Base: Emarald+Redstone]
+# 3. Ender Redstonia                [Base: Emarald+Redstone]    ✅ Done
 - Ender Defender Sword
 - Ender Defender Axe
 - Ender Defender Pickaxe
 - Ender Defender Crossbow
 - Redstonia Shield
 
-# 4. Ellegaard's Boom Town          [Gold+Redstone]
+# 4. Ellegaard's Boomers          [Gold+Redstone]                ✅ Done
 - Ellegaard's Trident
 - Ellegaard's Drill
 - Ellegaard's Sword
@@ -36,7 +36,7 @@
 - Ellegaard's Crossbow
 - Boom Town Stick [mace]
 
-# 5. Tim's Goliath                  [Iron+Gold]
+# 5. Tim's Goliath                  [Iron+Gold]                 ✅ Done
 - Tim's Sword
 - Tim's Axe
 - Tim's Pickaxe
@@ -47,7 +47,7 @@
 - Golden Goliath Axe
 - Golden Goliath Shield
 
-# 6. Petra's Riot                   [Lapis+Gold+Redstone]
+# 6. Petra's Riot                   [Lapis+Gold+Redstone]       ✅ Done
 - Petra's Bow
 - Redstone Riot Sword
 - Redstone Riot Axe
