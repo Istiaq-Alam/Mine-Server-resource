@@ -1,0 +1,192 @@
+/summon villager -319 92 187 {
+    VillagerData: {
+        profession: librarian,
+        level: 2,
+        type: snow
+    },
+    Invulnerable: 1,
+    PersistenceRequired: 1,
+    Silent: 1,
+    NoAI: 1,
+    Rotation: [270f, 0f],
+    CustomName: "Dragonslayer ",
+    active_effects: [
+        {
+            id: regeneration,
+            amplifier: 0,
+            duration: 999999,
+            show_particles: 0b
+        }
+    ],
+    Offers: {
+        Recipes: [
+            {
+                buy: {id: iron_block, count: 14},
+                buyB: {id: netherite_sword, count: 1},
+                sell: {
+                    id: netherite_sword,
+                    count: 1,
+                    components: {
+                        custom_name: "Dragonmaster Sword",
+                        lore: [
+                            "Sharp and mighty",
+                            "Push foes away",
+                            "Burn with every hit",
+                            "Lasts long"
+                        ],
+                        enchantments: {
+                            sharpness: 8,
+                            knockback: 4,
+                            fire_aspect: 3,
+                            unbreaking: 3
+                        }
+                    }
+                },
+                xp: 3,
+                priceMultiplier: 0.05f,
+                specialPrice: -1,
+                maxUses: 9999999
+            },
+            {
+                buy: {id: iron_block, count: 14},
+                buyB: {id: netherite_axe, count: 1},
+                sell: {
+                    id: netherite_axe,
+                    count: 1,
+                    components: {
+                        custom_name: "Dragonmaster Axe",
+                        lore: [
+                            "Strong vs undead ",
+                            "Fast chopping ",
+                            "Durable tool"
+                        ],
+                        enchantments: {
+                            smite: 5,
+                            efficiency: 5,
+                            unbreaking: 5
+                        }
+                    }
+                },
+                xp: 3,
+                priceMultiplier: 0.05f,
+                specialPrice: -2,
+                maxUses: 9999999
+            },
+            {
+                buy: {id: iron_block, count: 16},
+                buyB: {id: netherite_pickaxe, count: 1},
+                sell: {
+                    id: netherite_pickaxe,
+                    count: 1,
+                    components: {
+                        custom_name: "Dragonmaster Pickaxe",
+                        lore: [
+                            "Break blocks faster",
+                            "Collect blocks intact"
+                        ],
+                        enchantments: {
+                            efficiency: 7,
+                            silk_touch: 1
+                        }
+                    }
+                },
+                xp: 3,
+                priceMultiplier: 0.05f,
+                specialPrice: -1,
+                maxUses: 9999999
+            },
+            {
+                buy: {id: iron_block, count: 5},
+                buyB: {id: lapis_block, count: 2},
+                sell: {
+                    id: shield,
+                    count: 1,
+                    components: {
+                        custom_name: "Dragonmaster Shield",
+                        lore: [
+                            "Never breaks easily (Unbreaking VI)",
+                            "Self-repairing"
+                        ],
+                        enchantments: {
+                            unbreaking: 6,
+                            mending: 1
+                        }
+                    }
+                },
+                xp: 3,
+                priceMultiplier: 0.05f,
+                specialPrice: -2,
+                maxUses: 9999999
+            },
+            {
+                buy: {id: iron_block, count: 4},
+                buyB: {id: netherite_shovel, count: 1},
+                sell: {
+                    id: netherite_shovel,
+                    count: 1,
+                    components: {
+                        custom_name: "Dragonmaster Shovel",
+                        lore: [
+                            "Gather blocks intact",
+                            "Self-repairing"
+                        ],
+                        enchantments: {
+                            silk_touch: 1,
+                            mending: 1
+                        }
+                    }
+                },
+                xp: 3,
+                priceMultiplier: 0.05f,
+                specialPrice: -1,
+                maxUses: 9999999
+            },
+            {
+                buy: {id: iron_block, count: 3},
+                buyB: {id: netherite_hoe, count: 1},
+                sell: {
+                    id: netherite_hoe,
+                    count: 1,
+                    components: {
+                        custom_name: "Dragonmaster Hoe",
+                        lore: [
+                            "Durable farming tool",
+                            "Harvest more crops"
+                        ],
+                        enchantments: {
+                            unbreaking: 3,
+                            fortune: 5
+                        }
+                    }
+                },
+                xp: 3,
+                priceMultiplier: 0.05f,
+                specialPrice: -2,
+                maxUses: 9999999
+            },
+            {
+                buy: {id: iron_block, count: 2},
+                buyB: {id: crossbow, count: 1},
+                sell: {
+                    id: crossbow,
+                    count: 1,
+                    components: {
+                        custom_name: "Master Dragon",
+                        lore: [
+                            "Reload fast",
+                            "Durable ranged weapon"
+                        ],
+                        enchantments: {
+                            quick_charge: 5,
+                            unbreaking: 3
+                        }
+                    }
+                },
+                rewardExp: 0b,
+                priceMultiplier: 0.05f,
+                specialPrice: -2,
+                maxUses: 9999999
+            }
+        ]
+    }
+}

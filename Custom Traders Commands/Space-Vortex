@@ -1,0 +1,230 @@
+/summon villager -318 92 182 {
+    VillagerData: {
+        profession: weaponsmith,
+        level: 2,
+        type: jungle
+    },
+    Invulnerable: 1,
+    PersistenceRequired: 1,
+    Silent: 1,
+    NoAI: 1,
+    Rotation: [270f, 0f],
+    CustomName: "Space-Vortex",
+    active_effects: [
+        {
+            id: regeneration,
+            amplifier: 0,
+            duration: 999999,
+            show_particles: 0b
+        }
+    ],
+    Offers: {
+        Recipes: [
+            {
+                buy: {id: diamond_block, count: 6},
+                buyB: {id: mace, count: 1},
+                sell: {
+                    id: mace,
+                    count: 1,
+                    components: {
+                        custom_name: "Space Hamaxe",
+                        lore: ["Crushes with cosmic density"],
+                        enchantments: {
+                            density: 7,
+                            unbreaking: 3
+                        }
+                    }
+                },
+                xp: 3,
+                priceMultiplier: 0.05f,
+                specialPrice: -2,
+                maxUses: 9999999
+            },
+            {
+                buy: {id: diamond_block, count: 5},
+                buyB: {id: netherite_sword, count: 1},
+                sell: {
+                    id: netherite_sword,
+                    count: 1,
+                    components: {
+                        custom_name: "Space Sword",
+                        lore: ["Forged with the fire of collapsing stars"],
+                        enchantments: {
+                            smite: 7,
+                            fire_aspect: 5,
+                            looting: 4,
+                            unbreaking: 3
+                        }
+                    }
+                },
+                xp: 3,
+                priceMultiplier: 0.05f,
+                specialPrice: -2,
+                maxUses: 9999999
+            },
+            {
+                buy: {id: diamond_block, count: 4},
+                buyB: {id: netherite_axe, count: 1},
+                sell: {
+                    id: netherite_axe,
+                    count: 1,
+                    components: {
+                        custom_name: "Space Axe",
+                        lore: ["Slices with interstellar energy"],
+                        enchantments: {
+                            sharpness: 8,
+                            efficiency: 6,
+                            unbreaking: 4,
+                            mending: 1
+                        }
+                    }
+                },
+                xp: 3,
+                priceMultiplier: 0.05f,
+                specialPrice: -2,
+                maxUses: 9999999
+            },
+            {
+                buy: {id: golden_pickaxe, count: 1},
+                buyB: {id: netherite_pickaxe, count: 1},
+                sell: {
+                    id: netherite_pickaxe,
+                    count: 1,
+                    components: {
+                        custom_name: "Space Pickaxe",
+                        lore: ["Draws fortune from the void"],
+                        enchantments: {
+                            unbreaking: 3,
+                            fortune: 5,
+                            mending: 1
+                        }
+                    }
+                },
+                xp: 3,
+                priceMultiplier: 0.05f,
+                specialPrice: 1,
+                maxUses: 9999999
+            },
+            {
+                buy: {id: diamond_block, count: 2},
+                buyB: {id: lapis_block, count: 3},
+                sell: {
+                    id: shield,
+                    count: 1,
+                    components: {
+                        custom_name: "Space Shield",
+                        lore: ["A barrier of starlight and steel"],
+                        enchantments: {
+                            unbreaking: 3,
+                            mending: 1
+                        }
+                    }
+                },
+                xp: 3,
+                priceMultiplier: 0.05f,
+                specialPrice: -1,
+                maxUses: 9999999
+            },
+            {
+                buy: {id: iron_block, count: 3},
+                buyB: {id: bow, count: 1},
+                sell: {
+                    id: bow,
+                    count: 1,
+                    components: {
+                        custom_name: "Space Arm Cannon",
+                        lore: ["Fires with the force of a galaxy"],
+                        enchantments: {
+                            power: 6,
+                            punch: 3
+                        }
+                    }
+                },
+                xp: 3,
+                priceMultiplier: 0.05f,
+                specialPrice: -2,
+                maxUses: 9999999
+            },
+            {
+                buy: {id: emerald_block, count: 5},
+                buyB: {id: netherite_pickaxe, count: 1},
+                sell: {
+                    id: netherite_pickaxe,
+                    count: 1,
+                    components: {
+                        custom_name: "Vortex Pickaxe",
+                        lore: ["Harnesses the pull of black holes"],
+                        enchantments: {
+                            unbreaking: 3,
+                            fortune: 4,
+                            mending: 1
+                        }
+                    }
+                },
+                xp: 2,
+                priceMultiplier: 0.05f,
+                specialPrice: -2,
+                maxUses: 9999999
+            },
+            {
+                buy: {id: emerald_block, count: 3},
+                buyB: {id: netherite_axe, count: 1},
+                sell: {
+                    id: netherite_axe,
+                    count: 1,
+                    components: {
+                        custom_name: "Vortex Axe",
+                        lore: ["Swings with the pull of a vortex"],
+                        enchantments: {
+                            sharpness: 6,
+                            unbreaking: 2
+                        }
+                    }
+                },
+                xp: 3,
+                priceMultiplier: 0.05f,
+                specialPrice: -2,
+                maxUses: 9999999
+            },
+            {
+                buy: {id: emerald_block, count: 2},
+                buyB: {id: lapis_block, count: 2},
+                sell: {
+                    id: shield,
+                    count: 1,
+                    components: {
+                        custom_name: "Vortex Shield",
+                        lore: ["Shields with gravitational force"],
+                        enchantments: {
+                            unbreaking: 3
+                        }
+                    }
+                },
+                xp: 3,
+                priceMultiplier: 0.05f,
+                specialPrice: -1,
+                maxUses: 9999999
+            },
+            {
+                buy: {id: emerald_block, count: 4},
+                buyB: {id: mace, count: 1},
+                sell: {
+                    id: mace,
+                    count: 1,
+                    components: {
+                        custom_name: "Vortex Hamaxe",
+                        lore: ["Unleashes the storm of a collapsing star"],
+                        enchantments: {
+                            density: 6,
+                            wind_burst: 4
+                        }
+                    }
+                },
+                xp: 3,
+                priceMultiplier: 0.05f,
+                specialPrice: -1,
+                maxUses: 9999999
+            }
+        ]
+    }
+}

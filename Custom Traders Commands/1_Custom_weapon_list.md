@@ -56,7 +56,7 @@
 - Redstone Riot Shovel
 - Redstone Riot Hoe
 
-# 7. Romeo's Weapon                 [Redstone+netherack]
+# 7. Romeo's Weapon                 [Redstone+netherack]        ✅ Done
 - Romeo's Hammer [mace]
 - Romeo's Mace
 - Romeo of Undying
@@ -66,7 +66,7 @@
 - Romeo's Crossbow
 - Romeo's Shield
 
-# 8. Dragonslayer                   [Iron+Gold]
+# 8. Dragonslayer                   [Iron+Gold]                 ✅ Done
 - Dragonmaster Sword
 - Dragonmaster Axe
 - Dragonmaster Pickaxe
@@ -75,7 +75,7 @@
 - Dragonmaster Hoe
 - Master Dragon
 
-# 9. VanDroid                       [Quartz+Redstone]
+# 9. VanDroid                       [Quartz+Redstone]           ✅ Done
 - Robot Dancer's Sword
 - Robot Axe
 - Robot Pickaxe
@@ -87,7 +87,7 @@
 - Droid Bow
 - Droid Shield
 
-# 10. Space-Vortex                  [Dia+Iron]
+# 10. Space-Vortex                  [Dia+Iron]                 ✅ Done
 - Space Hamaxe
 - Space Sword
 - Space Axe
@@ -99,7 +99,7 @@
 - Vortex Shield
 - Vortex Hamaxe
 
-# 11. Sakura le Scarlet             [Redstone+EndPiller]
+# 11. Sakura le Scarlet             [Redstone+EndPiller]       ✅ Done
 - Sakura Sword
 - Sakura Axe
 - Sakura Shovel
