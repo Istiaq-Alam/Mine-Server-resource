@@ -1,0 +1,121 @@
+/summon villager -307 92 175 {
+  VillagerData: {
+    profession: cartographer,
+    level: 2,
+    type: taiga
+  },
+  Invulnerable: 1,
+  PersistenceRequired: 1,
+  Silent: 1,
+  NoAI: 1,
+  CustomName: "Journey's Tool",
+  active_effects: [
+    {id: regeneration, amplifier: 0, duration: 999999, show_particles: 0b}
+  ],
+  Offers: {
+    Recipes: [
+      {
+        buy: {id: gold_block, count: 8},
+        buyB: {id: prismarine_shard, count: 5},
+        sell: {
+          id: mace,
+          count: 1,
+          components: {
+            custom_name: "Journey Mace",
+            lore: ["Forged for endless tides, unbroken and swift."],
+            enchantments: {unbreaking: 5,  density: 7}
+          }
+        },
+        xp: 3,
+        priceMultiplier: 0.05f,
+        specialPrice: -2,
+        maxUses: 9999999
+      },
+      {
+        buy: {id: dark_prismarine, count: 35},
+        buyB: {id: gold_block, count: 14},
+        sell: {
+          id: netherite_sword,
+          count: 1,
+          components: {
+            custom_name: "Journey Sword",
+            lore: ["A cursed flame that cuts through darkness."],
+            enchantments: {smite: 6, fire_aspect: 5, vanishing_curse: 1}
+          }
+        },
+        xp: 3,
+        priceMultiplier: 0.05f,
+        specialPrice: -2,
+        maxUses: 9999999
+      },
+      {
+        buy: {id: gold_nugget, count: 34},
+        buyB: {id: netherite_axe, count: 1},
+        sell: {
+          id: netherite_axe,
+          count: 1,
+          components: {
+            custom_name: "Journey Axe",
+            lore: ["A sharp edge that endures every path."],
+            enchantments: {sharpness: 6, unbreaking: 3, mending: 1}
+          }
+        },
+        xp: 3,
+        priceMultiplier: 0.05f,
+        specialPrice: -2,
+        maxUses: 9999999
+      },
+      {
+        buy: {id: netherite_ingot, count: 3},
+        buyB: {id: golden_pickaxe, count: 1},
+        sell: {
+          id: netherite_pickaxe,
+          count: 1,
+          components: {
+            custom_name: "Journey Pickaxe",
+            lore: ["Cuts deep into stone, smooth as silk."],
+            enchantments: {efficiency: 6, silk_touch: 1, unbreaking: 3}
+          }
+        },
+        xp: 3,
+        priceMultiplier: 0.05f,
+        specialPrice: -2,
+        maxUses: 9999999
+      },
+      {
+        buy: {id: gold_block, count: 2},
+        buyB: {id: prismarine, count: 1},
+        sell: {
+          id: shield,
+          count: 1,
+          components: {
+            custom_name: "Journey Shield",
+            lore: ["A guardian’s shield that never breaks."],
+            enchantments: {unbreaking: 3, mending: 1}
+          }
+        },
+        xp: 3,
+        priceMultiplier: 0.05f,
+        specialPrice: 1,
+        maxUses: 9999999
+      },
+      {
+        buy: {id: prismarine, count: 10},
+        buyB: {id: golden_shovel, count: 1},
+        sell: {
+          id: netherite_shovel,
+          count: 1,
+          components: {
+            custom_name: "Journey Shovel",
+            lore: ["Carves earth with the grace of a traveler."],
+            enchantments: {efficiency: 5, silk_touch: 1, unbreaking: 3}
+          }
+        },
+        xp: 3,
+        priceMultiplier: 0.05f,
+        specialPrice: -1,
+        maxUses: 9999999
+      }
+    ]
+  }
+}

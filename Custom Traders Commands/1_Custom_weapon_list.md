@@ -109,7 +109,7 @@
 - Scarlet Pickaxe
 - Scarlet Shovel
 
-# 12. Journey's Tool                [Gold+Emarald]
+# 12. Journey's Tool                [Gold+Emarald]             ✅ Done   
 - Journey Mace
 - Journey Sword
 - Journey Axe
@@ -117,7 +117,7 @@
 - Journey Shield 
 - Journey Shovel
 
-# 13. Commander Dragon              [Amethest+Obsidian]
+# 13. Commander Dragon              [Amethest+Obsidian]         ✅ Done
 - Command Block Bow
 - Command Block Shield
 - Ender Dragon Mace
@@ -127,7 +127,7 @@
 - Queen Jean [Crossbow]
 - Ender Dragon Bow
 
-# 14. Royal Combat                  [Gold+Diamond]
+# 14. Royal Combat                  [Gold+Diamond]              ✅ Done
 - Royal Trident
 - Royal Mace
 - Royal Sword

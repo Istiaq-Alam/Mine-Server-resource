@@ -114,7 +114,7 @@
         buy: {id: red_stained_glass_pane, count: 14},
         buyB: {id: netherite_axe, count: 1},
         sell: {
-          id: netherite_pickaxe,
+          id: netherite_axe,
           count: 1,
           components: {
             custom_name: "Scarlet Axe",
