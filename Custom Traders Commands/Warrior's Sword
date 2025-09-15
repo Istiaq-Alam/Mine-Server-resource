@@ -1,0 +1,192 @@
+/summon villager -288 87 191 {
+  VillagerData: {
+    profession: weaponsmith,
+    level: 2,
+    type: plains
+  },
+  Invulnerable: 1,
+  PersistenceRequired: 1,
+  Silent: 1,
+  NoAI: 1,
+  Rotation: [180f, 0f],
+  CustomName: "Warrior's Sword",
+  active_effects: [
+    {
+      id: regeneration,
+      amplifier: 0,
+      duration: 999999,
+      show_particles: 0b
+    }
+  ],
+  Offers: {
+    Recipes: [
+      {
+        buy: {id: redstone_block, count: 3},
+        buyB: {id: netherite_sword, count: 1},
+        sell: {
+          id: netherite_sword,
+          count: 1,
+          components: {
+            custom_name: "Darthsaber",
+            lore: ["Forged from shadows, feared by warriors."],
+            enchantments: {sharpness: 6, knockback: 5}
+          }
+        },
+        xp: 3,
+        priceMultiplier: 0.05f,
+        specialPrice: -1,
+        maxUses: 9999999
+      },
+      {
+        buy: {id: soul_soil, count: 10},
+        buyB: {id: netherite_sword, count: 1},
+        sell: {
+          id: netherite_sword,
+          count: 1,
+          components: {
+            custom_name: "The Soul Mirror",
+            lore: ["Reflects the torment of lost spirits."],
+            enchantments: {knockback: 3, fire_aspect: 2}
+          }
+        },
+        xp: 3,
+        priceMultiplier: 0.05f,
+        specialPrice: -2,
+        maxUses: 9999999
+      },
+      {
+        buy: {id: crying_obsidian, count: 4},
+        buyB: {id: netherite_sword, count: 1},
+        sell: {
+          id: netherite_sword,
+          count: 1,
+          components: {
+            custom_name: "Static Link",
+            lore: ["Crackles with storm’s fury and rage."],
+            enchantments: {smite: 6, knockback: 4, looting: 4}
+          }
+        },
+        xp: 3,
+        priceMultiplier: 0.05f,
+        specialPrice: -1,
+        maxUses: 9999999
+      },
+      {
+        buy: {id: fire_charge, count: 25},
+        buyB: {id: netherite_sword, count: 1},
+        sell: {
+          id: netherite_sword,
+          count: 1,
+          components: {
+            custom_name: "Sparkler",
+            lore: ["Burns bright before it devours all."],
+            enchantments: {sweeping_edge: 3, fire_aspect: 10, looting: 5}
+          }
+        },
+        xp: 3,
+        priceMultiplier: 0.05f,
+        specialPrice: -2,
+        maxUses: 9999999
+      },
+      {
+        buy: {id: redstone_torch, count: 8},
+        buyB: {id: netherite_sword, count: 1},
+        sell: {
+          id: netherite_sword,
+          count: 1,
+          components: {
+            custom_name: "The Taker",
+            lore: ["Each strike steals life without mercy."],
+            enchantments: {sweeping_edge: 3, bane_of_arthropods: 7}
+          }
+        },
+        xp: 3,
+        maxUses: 9999999
+      },
+      {
+        buy: {id: iron_block, count: 14},
+        buyB: {id: netherite_sword, count: 1},
+        sell: {
+          id: netherite_sword,
+          count: 1,
+          components: {
+            custom_name: "Ultra Sword",
+            lore: ["Born of iron will and endless fire."],
+            enchantments: {sharpness: 10, knockback: 5, fire_aspect: 5}
+          }
+        },
+        xp: 3,
+        priceMultiplier: 0.05f,
+        specialPrice: -1,
+        maxUses: 9999999
+      },
+      {
+        buy: {id: gold_block, count: 7},
+        buyB: {id: netherite_sword, count: 1},
+        sell: {
+          id: netherite_sword,
+          count: 1,
+          components: {
+            custom_name: "Living Myth Sword",
+            lore: ["Legends say it breathes with victory."],
+            enchantments: {sharpness: 7, looting: 4, mending: 1}
+          }
+        },
+        xp: 3,
+        maxUses: 9999999
+      },
+      {
+        buy: {id: iron_block, count: 18},
+        buyB: {id: netherite_sword, count: 1},
+        sell: {
+          id: netherite_sword,
+          count: 1,
+          components: {
+            custom_name: "Dragon Slayer",
+            lore: ["Its edge once felled a winged beast."],
+            enchantments: {sweeping_edge: 5, sharpness: 7, knockback: 5}
+          }
+        },
+        xp: 3,
+        specialPrice: -1,
+        maxUses: 9999999
+      },
+      {
+        buy: {id: end_rod, count: 10},
+        buyB: {id: netherite_sword, count: 1},
+        sell: {
+          id: netherite_sword,
+          count: 1,
+          components: {
+            custom_name: "Beam Sword",
+            lore: ["Glows with the light of fallen stars."],
+            enchantments: {smite: 6, knockback: 6, unbreaking: 3}
+          }
+        },
+        xp: 3,
+        maxUses: 9999999
+      },
+      {
+        buy: {id: end_crystal, count: 8},
+        buyB: {id: netherite_sword, count: 1},
+        sell: {
+          id: netherite_sword,
+          count: 1,
+          components: {
+            custom_name: "Blade of Chaos",
+            lore: ["Unleashes destruction beyond control."],
+            enchantments: {
+              sharpness: 10,
+              knockback: 10,
+              fire_aspect: 10,
+              looting: 5,
+              unbreaking: 3
+            }
+          }
+        },
+        xp: 3,
+        maxUses: 9999999
+      }
+    ]
+  }
+}

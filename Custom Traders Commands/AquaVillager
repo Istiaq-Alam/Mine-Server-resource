@@ -1,0 +1,155 @@
+/summon villager -284 87 191 {
+  VillagerData: {
+    profession: weaponsmith,
+    level: 2,
+    type: swamp
+  },
+  Invulnerable: 1,
+  PersistenceRequired: 1,
+  Silent: 1,
+  NoAI: 1,
+  Rotation: [180f, 0f],
+  CustomName: AquaVillager,
+  active_effects: [
+    {
+      id: regeneration,
+      amplifier: 0,
+      duration: 999999,
+      show_particles: 0b
+    }
+  ],
+  Offers: {
+    Recipes: [
+      {
+        buy: {id: diamond, count: 5},
+        buyB: {id: trident, count: 1},
+        sell: {
+          id: trident,
+          count: 1,
+          components: {
+            custom_name: "Titan's Shroud Trident",
+            lore: ["Once wielded by ocean titans, cloaked in storms."],
+            enchantments: {unbreaking: 3, loyalty: 5, channeling: 1}
+          }
+        },
+        xp: 3,
+        priceMultiplier: 0.05f,
+        specialPrice: -2,
+        maxUses: 9999999
+      },
+      {
+        buy: {id: prismarine, count: 3},
+        buyB: {id: trident, count: 1},
+        sell: {
+          id: trident,
+          count: 1,
+          components: {
+            custom_name: "Kemetian Trident",
+            lore: ["A relic of ancient waters, carved with forgotten runes."],
+            enchantments: {loyalty: 5, impaling: 6}
+          }
+        },
+        xp: 3,
+        maxUses: 9999999
+      },
+      {
+        buy: {id: iron_block, count: 1},
+        buyB: {id: trident, count: 1},
+        sell: {
+          id: trident,
+          count: 1,
+          components: {
+            custom_name: "Spore Javelin",
+            lore: ["It blooms with deadly spores from the deep abyss."],
+            enchantments: {unbreaking: 5, impaling: 6}
+          }
+        },
+        xp: 2,
+        maxUses: 9999999
+      },
+      {
+        buy: {id: blackstone, count: 4},
+        buyB: {id: trident, count: 1},
+        sell: {
+          id: trident,
+          count: 1,
+          components: {
+            custom_name: "Trident Before Christmas",
+            lore: ["Forged in festive chaos, it strikes with eerie cheer."],
+            enchantments: {unbreaking: 3, mending: 1}
+          }
+        },
+        xp: 3,
+        maxUses: 9999999
+      },
+      {
+        buy: {id: copper_ingot, count: 10},
+        buyB: {id: trident, count: 1},
+        sell: {
+          id: trident,
+          count: 1,
+          components: {
+            custom_name: "Light Trident",
+            lore: ["A divine spear crackling with unending storms."],
+            enchantments: {unbreaking: 5, loyalty: 5, impaling: 6, channeling: 1}
+          }
+        },
+        xp: 4,
+        priceMultiplier: 0.05f,
+        specialPrice: -1,
+        maxUses: 9999999
+      },
+      {
+        buy: {id: blue_ice, count: 10},
+        buyB: {id: trident, count: 1},
+        sell: {
+          id: trident,
+          count: 1,
+          components: {
+            custom_name: "Norroen Trident",
+            lore: ["Shards of frozen winds pierce with chilling speed."],
+            enchantments: {unbreaking: 5, channeling: 1, mending: 1}
+          }
+        },
+        xp: 3,
+        priceMultiplier: 0.05f,
+        specialPrice: -2,
+        maxUses: 9999999
+      },
+      {
+        buy: {id: crying_obsidian, count: 8},
+        buyB: {id: trident, count: 1},
+        sell: {
+          id: trident,
+          count: 1,
+          components: {
+            custom_name: "Sinitic Trident",
+            lore: ["Odin’s eternal spear, said never to miss its mark."],
+            enchantments: {unbreaking: 5, loyalty: 5, riptide: 3}
+          }
+        },
+        xp: 3,
+        priceMultiplier: 0.05f,
+        specialPrice: -1,
+        maxUses: 9999999
+      },
+      {
+        buy: {id: gold_block, count: 5},
+        buyB: {id: trident, count: 1},
+        sell: {
+          id: trident,
+          count: 1,
+          components: {
+            custom_name: "Ancient Trident",
+            lore: ["Silent as the tide, deadly as the blade."],
+            enchantments: {unbreaking: 3, loyalty: 5, impaling: 5}
+          }
+        },
+        xp: 3,
+        priceMultiplier: 0.05f,
+        specialPrice: -2,
+        maxUses: 9999999
+      }
+    ]
+  }
+}

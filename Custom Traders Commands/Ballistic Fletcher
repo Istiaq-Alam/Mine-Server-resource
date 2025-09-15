@@ -1,0 +1,166 @@
+/summon villager -284 87 183 {
+  VillagerData: {
+    profession: fletcher,
+    level: 2,
+    type: desert
+  },
+  Invulnerable: 1,
+  PersistenceRequired: 1,
+  Silent: 1,
+  NoAI: 1,
+  CustomName: "Ballistic Fletcher",
+  active_effects: [
+    {
+      id: regeneration,
+      amplifier: 0,
+      duration: 999999,
+      show_particles: 0b
+    }
+  ],
+  Offers: {
+    Recipes: [
+      {
+        buy: {id: emerald, count: 10},
+        sell: {
+          id: crossbow,
+          count: 1,
+          components: {
+            custom_name: "Ballistic Force Crossbow",
+            lore: ["A weapon built to shatter armor with sheer force."],
+            enchantments: {unbreaking: 4}
+          }
+        },
+        xp: 2,
+        maxUses: 9999999
+      },
+      {
+        buy: {id: emerald, count: 11},
+        sell: {
+          id: crossbow,
+          count: 1,
+          components: {
+            custom_name: "Rocket Jumper",
+            lore: ["Favored by daredevils who leap into battle."],
+            enchantments: {unbreaking: 3}
+          }
+        },
+        xp: 3,
+        maxUses: 9999999
+      },
+      {
+        buy: {id: emerald, count: 23},
+        sell: {
+          id: crossbow,
+          count: 1,
+          components: {
+            custom_name: "Formidi-Ballista",
+            lore: ["Forged to rival the Wither’s might itself."],
+            enchantments: {mending: 1}
+          }
+        },
+        xp: 2,
+        maxUses: 9999999
+      },
+      {
+        buy: {id: emerald, count: 6},
+        buyB: {id: ender_pearl, count: 7},
+        sell: {
+          id: crossbow,
+          count: 1,
+          components: {
+            custom_name: "Fermented Crossbow",
+            lore: ["Corrupted by alchemy, it hums with dark energy."],
+            enchantments: {piercing: 5}
+          }
+        },
+        xp: 2,
+        maxUses: 9999999
+      },
+      {
+        buy: {id: emerald, count: 12},
+        sell: {
+          id: crossbow,
+          count: 1,
+          components: {
+            custom_name: "Great Hog's Glory",
+            lore: ["Once wielded by the boar clans of the wild."],
+            enchantments: {quick_charge: 4}
+          }
+        },
+        xp: 3,
+        maxUses: 9999999
+      },
+      {
+        buy: {id: emerald, count: 16},
+        buyB: {id: gold_ingot, count: 17},
+        sell: {
+          id: crossbow,
+          count: 1,
+          components: {
+            custom_name: "Nautical Crossbow",
+            lore: ["Crafted for sailors to battle the ocean’s beasts."],
+            enchantments: {unbreaking: 3}
+          }
+        },
+        xp: 2,
+        maxUses: 9999999
+      },
+      {
+        buy: {id: emerald, count: 13},
+        sell: {
+          id: bow,
+          count: 1,
+          components: {
+            custom_name: "Sabrewing",
+            lore: ["A swift bow said to channel the winds of legends."],
+            enchantments: {infinity: 1}
+          }
+        },
+        xp: 3,
+        maxUses: 9999999
+      },
+      {
+        buy: {id: emerald, count: 18},
+        sell: {
+          id: crossbow,
+          count: 1,
+          components: {
+            custom_name: "Slayer of Dragons",
+            lore: ["Forged to pierce the scales of ancient dragons."],
+            enchantments: {multishot: 1}
+          }
+        },
+        xp: 2,
+        maxUses: 9999999
+      },
+      {
+        buy: {id: emerald, count: 15},
+        sell: {
+          id: crossbow,
+          count: 1,
+          components: {
+            custom_name: "Combat Sniper",
+            lore: ["Designed for precision strikes across the battlefield."],
+            enchantments: {quick_charge: 10}
+          }
+        },
+        xp: 3,
+        maxUses: 9999999
+      },
+      {
+        buy: {id: emerald, count: 35},
+        sell: {
+          id: crossbow,
+          count: 1,
+          components: {
+            custom_name: "Classic",
+            lore: ["A timeless weapon trusted by countless warriors."],
+            enchantments: {piercing: 6, quick_charge: 10}
+          }
+        },
+        xp: 3,
+        maxUses: 9999999
+      }
+    ]
+  }
+}

@@ -136,7 +136,7 @@
 - Combat Sword
 - Combat Sniper
 
-# 15. Portal Buster Warrior         [Gold]
+# 15. Portal Buster Warrior         [Gold]                      ✅ Done
 - Portal Buster Mace
 - Portal Buster Sword
 - Lava Warrior Hamaxe [mace]
@@ -145,7 +145,7 @@
 - Frost Slayer [Sword]
 - Frost Scythe [Sword]
 
-# 16. Soul Hunter                   [Soulsand+Cring Obsidian]
+# 16. Soul Hunter                   [Soulsand+Cring Obsidian]   ✅ Done
 - Soul Scythe [Sword]
 - Soul Crossbow
 - Teleportation Bow
@@ -154,10 +154,9 @@
 - Nameless Shield
 - Necromancer Blade
 
-# 17. Ancient Dragonheart           [Debris+Redstone]
+# 17. Ancient Dragonheart           [Debris+Redstone]           ✅ Done
 - Dragonheart Mace
 - Dragonheart Sword
-- Dragonheart Cutlass
 - Dragonheart Axe
 - Dragonheart Pickaxe
 - Ancient Trident
@@ -165,7 +164,7 @@
 - Ancient Sword
 - Ancient Axe
 
-# 18. Tiered Weaponer               [Emarald]
+# 18. Tiered Weaponer               [Emarald]                   ✅ Done
 - Claws [dia-Sword]
 - Karambit [dia-Sword]
 - Chainsaw [dia/iron-axe]
@@ -173,7 +172,7 @@
 - Hammer [iron-Pickaxe]
 - 
 
-# 19. Warrior's Sword               
+# 19. Warrior's Sword             ✅                              ✅ Done
 - Darthsaber [netherite-Sword]      
 - The Soul Mirror
 - Static Link
@@ -185,7 +184,7 @@
 - Beam Sword
 - Blade of Chaos
 
-# 20. AquaVillager
+# 20. AquaVillager                                             ✅ Done
 - Titan's Shroud Trident
 - Kemetian Trident
 - Spore Javelin
@@ -195,25 +194,25 @@
 - Gungnir
 - Ninja Trident
 
-# 21. Chaos Hamlord
+# 21. Chaos Hamlord                           ✅
 - Sextuple D Hammer [mace]
 - Gravity Hammer
 - Stormlander
 - Mechanical Bone Cudgel
 - Meat Grinder
 - Hammush
-- Magical Mallet
-- One-Hit Obliterator
+- Ninja Hammer
+- Slugger
 - Mjolnir
 
-# 22. ShieldBuilder
+# 22. ShieldBuilder                         ✅    
 - Mushroom Guy
 - Master's Shield
 - Dragonmaster Shield
 - Star Spangled Shield
 - Red Power Ring
 
-# 23. Ballistic Fletcher
+# 23. Ballistic Fletcher                    ✅ 
 - Ballistic Force Crossbow
 - Rocket Jumper
 - Formidi-Ballista
@@ -225,7 +224,7 @@
 - Combat Sniper
 - Classic
 
-# 24. Death-Cheater
+# 24. Death-Cheater                          ✅ 
 - Fairy
 - Lucky Charm
 - Token of Undying
@@ -236,3 +235,15 @@
 - Totem of the Berserker
 - Shishi
 
+25. JourneyMan
+- Saddle 
+- diamonhorse
+- goldhorse
+- ironhorse
+- Elytra
+- Rail
+- Powered Rail
+- minecart
+- fireworks
+|
+--> /summon villager -292 87 183 {VillagerData:{profession:cartographer,level:2,type:snow},Invulnerable:1,PersistenceRequired:1,Silent:1,NoAI:1,CustomName:JourneyMan,active_effects:[{id:regeneration,amplifier:0,duration:999999,show_particles:0b}],Offers:{Recipes:[{buy:{id:emerald,count:2},sell:{id:saddle,count:1},xp:3,maxUses:9999999},{buy:{id:emerald,count:7},buyB:{id:diamond,count:2},sell:{id:diamond_horse_armor,count:1},xp:3,priceMultiplier:0.05f,specialPrice:-2,maxUses:9999999},{buy:{id:emerald,count:7},buyB:{id:gold_ingot,count:2},sell:{id:golden_horse_armor,count:1},xp:3,priceMultiplier:0.05f,specialPrice:-2,maxUses:9999999},{buy:{id:emerald,count:3},buyB:{id:iron_ingot,count:2},sell:{id:iron_horse_armor,count:1},xp:3,specialPrice:-2,maxUses:9999999},{buy:{id:emerald_block,count:10},buyB:{id:diamond_block,count:13},sell:{id:elytra,count:1,components:{custom_name:"Unstable Elytra"}},xp:3,maxUses:9999999},{buy:{id:iron_nugget,count:1},buyB:{id:stick,count:1},sell:{id:rail,count:2},xp:3,maxUses:9999999},{buy:{id:gold_nugget,count:1},buyB:{id:stick,count:1},sell:{id:powered_rail,count:2},xp:3,maxUses:9999999},{buy:{id:emerald,count:5},buyB:{id:paper,count:1},sell:{id:firework_rocket,count:1},rewardExp:0b,maxUses:9999999}]}}

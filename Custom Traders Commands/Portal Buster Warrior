@@ -1,0 +1,125 @@
+/summon villager -307 92 199 {
+  VillagerData: {
+    profession: fletcher,
+    level: 2,
+    type: swamp
+  },
+  Invulnerable: 1,
+  PersistenceRequired: 1,
+  Silent: 1,
+  NoAI: 1,
+  Rotation: [180f, 0f],
+  CustomName: "Portal Buster Warrior",
+  active_effects: [
+    {
+      id: regeneration,
+      amplifier: 0,
+      duration: 999999,
+      show_particles: 0b
+    }
+  ],
+  Offers: {
+    Recipes: [
+      {
+        buy: {id: gold_block, count: 5},
+        buyB: {id: mace, count: 1},
+        sell: {
+          id: mace,
+          count: 1,
+          components: {
+            custom_name: "Portal Buster Mace",
+            lore: ["Forged to shatter corrupted portals"],
+            enchantments: {density: 6, unbreaking: 3}
+          }
+        },
+        xp: 3,
+        priceMultiplier: 0.05f,
+        specialPrice: -1,
+        maxUses: 9999999
+      },
+      {
+        buy: {id: gold_ingot, count: 8},
+        buyB: {id: netherite_sword, count: 1},
+        sell: {
+          id: netherite_sword,
+          count: 1,
+          components: {
+            custom_name: "Portal Buster Sword",
+            lore: ["A blade sworn to guard the realm"],
+            enchantments: {sweeping_edge: 4, bane_of_arthropods: 6, unbreaking: 3}
+          }
+        },
+        xp: 3,
+        priceMultiplier: 0.05f,
+        specialPrice: -2,
+        maxUses: 9999999
+      },
+      {
+        buy: {id: lava_bucket, count: 1},
+        buyB: {id: mace, count: 1},
+        sell: {
+          id: mace,
+          count: 1,
+          components: {
+            custom_name: "Lava Warrior Hamaxe",
+            lore: ["Burns with the fury of molten worlds"],
+            enchantments: {fire_aspect: 10, mending: 1}
+          }
+        },
+        xp: 3,
+        priceMultiplier: 0.05f,
+        maxUses: 9999999
+      },
+      {
+        buy: {id: chiseled_polished_blackstone, count: 3},
+        buyB: {id: mace, count: 1},
+        sell: {
+          id: mace,
+          count: 1,
+          components: {
+            custom_name: "Hammer",
+            lore: ["Breaker of stone and shadow alike"],
+            enchantments: {breach: 5, unbreaking: 3}
+          }
+        },
+        xp: 3,
+        priceMultiplier: 0.05f,
+        specialPrice: -1,
+        maxUses: 9999999
+      },
+      {
+        buy: {id: chiseled_polished_blackstone, count: 2},
+        buyB: {id: crossbow, count: 1},
+        sell: {
+          id: crossbow,
+          count: 1,
+          components: {
+            custom_name: "Heavy Crossbow",
+            lore: ["Bolts that pierce through frozen gates"],
+            enchantments: {multishot: 4, unbreaking: 3}
+          }
+        },
+        xp: 3,
+        priceMultiplier: 0.05f,
+        maxUses: 9999999
+      },
+      {
+        buy: {id: ice, count: 5},
+        buyB: {id: netherite_sword, count: 1},
+        sell: {
+          id: netherite_sword,
+          count: 1,
+          components: {
+            custom_name: "Frost Slayer",
+            lore: ["Forged in ice to end fiery beasts"],
+            enchantments: {sharpness: 7, looting: 5, unbreaking: 3}
+          }
+        },
+        xp: 3,
+        priceMultiplier: 0.05f,
+        specialPrice: 1,
+        maxUses: 9999999
+      },
+    ]
+  }
+}

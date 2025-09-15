@@ -1,0 +1,141 @@
+/summon villager -288 87 183 {
+  VillagerData: {
+    profession: fletcher,
+    level: 2,
+    type: desert
+  },
+  Invulnerable: 1,
+  PersistenceRequired: 1,
+  Silent: 1,
+  NoAI: 1,
+  CustomName: "Death-Cheater",
+  active_effects: [
+    {
+      id: regeneration,
+      amplifier: 0,
+      duration: 999999,
+      show_particles: 0b
+    }
+  ],
+  Offers: {
+    Recipes: [
+      {
+        buy: {id: emerald, count: 5},
+        sell: {
+          id: totem_of_undying,
+          count: 1,
+          components: {
+            custom_name: "Fairy",
+            lore: ["A mystical spirit that revives you with gentle magic."]
+          }
+        },
+        xp: 3,
+        maxUses: 9999999
+      },
+      {
+        buy: {id: emerald, count: 5},
+        sell: {
+          id: totem_of_undying,
+          count: 1,
+          components: {
+            custom_name: "Lucky Charm",
+            lore: ["Said to twist fate itself in your favor."]
+          }
+        },
+        xp: 3,
+        maxUses: 9999999
+      },
+      {
+        buy: {id: emerald, count: 5},
+        sell: {
+          id: totem_of_undying,
+          count: 1,
+          components: {
+            custom_name: "Token of Undying",
+            lore: ["A relic that binds your soul back to life."]
+          }
+        },
+        xp: 3,
+        maxUses: 9999999
+      },
+      {
+        buy: {id: emerald, count: 10},
+        sell: {
+          id: totem_of_undying,
+          count: 1,
+          components: {
+            custom_name: "Statue of Undying",
+            lore: ["An eternal idol carved to defy death itself."]
+          }
+        },
+        xp: 3,
+        maxUses: 9999999
+      },
+      {
+        buy: {id: emerald, count: 5},
+        sell: {
+          id: totem_of_undying,
+          count: 1,
+          components: {
+            custom_name: "Bunny of Undying",
+            lore: ["A playful guardian spirit with endless lives."]
+          }
+        },
+        xp: 3,
+        maxUses: 9999999
+      },
+      {
+        buy: {id: emerald, count: 5},
+        sell: {
+          id: totem_of_undying,
+          count: 1,
+          components: {
+            custom_name: "Dead Ringer",
+            lore: ["A trickster’s charm that cheats the reaper’s scythe."]
+          }
+        },
+        xp: 3,
+        maxUses: 9999999
+      },
+      {
+        buy: {id: emerald, count: 5},
+        sell: {
+          id: totem_of_undying,
+          count: 1,
+          components: {
+            custom_name: "Minecoin",
+            lore: ["A strange artifact minted with immortal value."]
+          }
+        },
+        xp: 4,
+        maxUses: 9999999
+      },
+      {
+        buy: {id: emerald, count: 5},
+        sell: {
+          id: totem_of_undying,
+          count: 1,
+          components: {
+            custom_name: "Totem of the Berserker",
+            lore: ["Grants a warrior’s rage even beyond death."]
+          }
+        },
+        xp: 3,
+        maxUses: 9999999
+      },
+      {
+        buy: {id: emerald, count: 5},
+        sell: {
+          id: totem_of_undying,
+          count: 1,
+          components: {
+            custom_name: "Shishi",
+            lore: ["A lion guardian spirit that wards off death’s touch."]
+          }
+        },
+        xp: 3,
+        maxUses: 9999999
+      }
+    ]
+  }
+}

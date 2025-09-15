@@ -1,0 +1,151 @@
+/summon villager -302 92 198 {
+  VillagerData: {
+    profession: fletcher,
+    level: 2,
+    type: swamp
+  },
+  Invulnerable: 1,
+  PersistenceRequired: 1,
+  Silent: 1,
+  NoAI: 1,
+  Rotation: [180f, 0f],
+  CustomName: "Soul Hunter",
+  active_effects: [
+    {
+      id: regeneration,
+      amplifier: 0,
+      duration: 999999,
+      show_particles: 0b
+    }
+  ],
+  Offers: {
+    Recipes: [
+      {
+        buy: {id: diamond_block, count: 2},
+        buyB: {id: obsidian, count: 3},
+        sell: {
+          id: crossbow,
+          count: 1,
+          components: {
+            custom_name: "Soul Crossbow",
+            lore: ["Bolts bound with trapped spirits"],
+            enchantments: {
+              piercing: 5,
+              unbreaking: 2,
+              mending: 1
+            }
+          }
+        },
+        xp: 3,
+        priceMultiplier: 0.05f,
+        specialPrice: -1,
+        maxUses: 9999999
+      },
+      {
+        buy: {id: phantom_membrane, count: 5},
+        buyB: {id: bow, count: 1},
+        sell: {
+          id: bow,
+          count: 1,
+          components: {
+            custom_name: "Teleportation Bow",
+            lore: ["Arrows that bend the path of space"],
+            enchantments: {
+              unbreaking: 4,
+              power: 6,
+              infinity: 1
+            }
+          }
+        },
+        xp: 3,
+        priceMultiplier: 0.05f,
+        specialPrice: -1,
+        maxUses: 9999999
+      },
+      {
+        buy: {id: phantom_membrane, count: 8},
+        buyB: {id: crossbow, count: 1},
+        sell: {
+          id: crossbow,
+          count: 1,
+          components: {
+            custom_name: "Teleportation Crossbow",
+            lore: ["Each bolt tears a rift in reality"],
+            enchantments: {
+              piercing: 5,
+              quick_charge: 4,
+              mending: 1
+            }
+          }
+        },
+        xp: 3,
+        priceMultiplier: 0.05f,
+        specialPrice: -2,
+        maxUses: 9999999
+      },
+      {
+        buy: {id: campfire, count: 8},
+        buyB: {id: netherite_sword, count: 1},
+        sell: {
+          id: netherite_sword,
+          count: 1,
+          components: {
+            custom_name: "Nameless Blade",
+            lore: ["Its true name is lost to eternity"],
+            enchantments: {
+              smite: 8,
+              fire_aspect: 10,
+              looting: 5,
+              unbreaking: 3
+            }
+          }
+        },
+        xp: 3,
+        priceMultiplier: 0.05f,
+        specialPrice: -2,
+        maxUses: 9999999
+      },
+      {
+        buy: {id: iron_block, count: 2},
+        buyB: {id: obsidian, count: 4},
+        sell: {
+          id: shield,
+          count: 1,
+          components: {
+            custom_name: "Nameless Shield",
+            lore: ["A guardian’s defense veiled in mystery"],
+            enchantments: {
+              unbreaking: 3
+            }
+          }
+        },
+        xp: 3,
+        priceMultiplier: 0.05f,
+        specialPrice: 1,
+        maxUses: 9999999
+      },
+      {
+        buy: {id: soul_campfire, count: 3},
+        buyB: {id: netherite_sword, count: 1},
+        sell: {
+          id: netherite_sword,
+          count: 1,
+          components: {
+            custom_name: "Necromancer Blade",
+            lore: ["Feeds on souls to fuel dark power"],
+            enchantments: {
+              smite: 8,
+              knockback: 8,
+              fire_aspect: 10,
+              unbreaking: 3
+            }
+          }
+        },
+        xp: 3,
+        priceMultiplier: 0.05f,
+        specialPrice: 1,
+        maxUses: 9999999
+      }
+    ]
+  }
+}

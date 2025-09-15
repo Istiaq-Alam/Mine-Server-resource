@@ -1,0 +1,96 @@
+/summon villager -280 87 183 {
+  VillagerData: {
+    profession: toolsmith,
+    level: 2,
+    type: jungle
+  },
+  Invulnerable: 1,
+  PersistenceRequired: 1,
+  Silent: 1,
+  NoAI: 1,
+  CustomName: "ShieldBuilder",
+  active_effects: [
+    {
+      id: regeneration,
+      amplifier: 0,
+      duration: 999999,
+      show_particles: 0b
+    }
+  ],
+  Offers: {
+    Recipes: [
+      {
+        buy: {id: emerald, count: 8},
+        buyB: {id: iron_block, count: 1},
+        sell: {
+          id: shield,
+          count: 1,
+          components: {
+            custom_name: "Mushroom Guy",
+            lore: ["A quirky shield infused with the spirit of fungi."]
+          }
+        },
+        xp: 3,
+        priceMultiplier: 0.05f,
+        specialPrice: -4,
+        maxUses: 9999999
+      },
+      {
+        buy: {id: lapis_lazuli, count: 5},
+        buyB: {id: iron_block, count: 1},
+        sell: {
+          id: shield,
+          count: 1,
+          components: {
+            custom_name: "Master's Shield",
+            lore: ["Forged for champions destined to protect realms."]
+          }
+        },
+        xp: 1,
+        maxUses: 9999999
+      },
+      {
+        buy: {id: obsidian, count: 1},
+        buyB: {id: iron_block, count: 1},
+        sell: {
+          id: shield,
+          count: 1,
+          components: {
+            custom_name: "Dragonmaster Shield",
+            lore: ["Once wielded to defy the wrath of dragons."]
+          }
+        },
+        xp: 3,
+        maxUses: 9999999
+      },
+      {
+        buy: {id: diamond, count: 7},
+        buyB: {id: emerald, count: 5},
+        sell: {
+          id: shield,
+          count: 1,
+          components: {
+            custom_name: "Star Spangled Shield",
+            lore: ["A beacon of hope, shining with cosmic pride."]
+          }
+        },
+        xp: 3,
+        maxUses: 9999999
+      },
+      {
+        buy: {id: redstone_block, count: 1},
+        buyB: {id: emerald, count: 5},
+        sell: {
+          id: shield,
+          count: 1,
+          components: {
+            custom_name: "Redstone Riot Shield",
+            lore: ["Glows with endless energy drawn from crimson light."]
+          }
+        },
+        xp: 2,
+        maxUses: 9999999
+      }
+    ]
+  }
+}

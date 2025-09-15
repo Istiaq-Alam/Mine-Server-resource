@@ -1,0 +1,174 @@
+/summon villager -280 87 191 {
+  VillagerData: {
+    profession: weaponsmith,
+    level: 2,
+    type: swamp
+  },
+  Invulnerable: 1,
+  PersistenceRequired: 1,
+  Silent: 1,
+  NoAI: 1,
+  Rotation: [180f, 0f],
+  CustomName: "Chaos Hamlord",
+  active_effects: [
+    {
+      id: regeneration,
+      amplifier: 0,
+      duration: 999999,
+      show_particles: 0b
+    }
+  ],
+  Offers: {
+    Recipes: [
+      {
+        buy: {id: glowstone, count: 10},
+        buyB: {id: mace, count: 1},
+        sell: {
+          id: mace,
+          count: 1,
+          components: {
+            custom_name: "Sextuple D Hammer",
+            lore: ["Forged for destruction, sixfold chaos in every swing."],
+            enchantments: {density: 6, wind_burst: 5}
+          }
+        },
+        xp: 3,
+        priceMultiplier: 0.05f,
+        specialPrice: -2,
+        maxUses: 9999999
+      },
+      {
+        buy: {id: wind_charge, count: 14},
+        buyB: {id: mace, count: 1},
+        sell: {
+          id: mace,
+          count: 1,
+          components: {
+            custom_name: "Gravity Hammer",
+            lore: ["A weapon that bends the weight of worlds to crush foes."],
+            enchantments: {breach: 5, wind_burst: 4}
+          }
+        },
+        xp: 3,
+        priceMultiplier: 0.05f,
+        specialPrice: -3,
+        maxUses: 9999999
+      },
+      {
+        buy: {id: diamond, count: 4},
+        buyB: {id: mace, count: 1},
+        sell: {
+          id: mace,
+          count: 1,
+          components: {
+            custom_name: "Stormlander",
+            lore: ["It channels storms, striking with thunderous might."],
+            enchantments: {unbreaking: 3}
+          }
+        },
+        xp: 4,
+        priceMultiplier: 0.05f,
+        specialPrice: -1,
+        maxUses: 9999999
+      },
+      {
+        buy: {id: bone_block, count: 33},
+        buyB: {id: mace, count: 1},
+        sell: {
+          id: mace,
+          count: 1,
+          components: {
+            custom_name: "Mechanical Bone Cudgel",
+            lore: ["A grotesque contraption of bones and gears from Zelda’s dark lore."],
+            enchantments: {bane_of_arthropods: 5, unbreaking: 3}
+          }
+        },
+        xp: 3,
+        maxUses: 9999999
+      },
+      {
+        buy: {id: furnace, count: 4},
+        buyB: {id: mace, count: 1},
+        sell: {
+          id: mace,
+          count: 1,
+          components: {
+            custom_name: "Meat Grinder",
+            lore: ["Every strike tears flesh as if ground by fire and steel."],
+            enchantments: {smite: 5, fire_aspect: 4, mending: 1}
+          }
+        },
+        xp: 4,
+        priceMultiplier: 0.05f,
+        specialPrice: -1,
+        maxUses: 9999999
+      },
+      {
+        buy: {id: lapis_block, count: 6},
+        buyB: {id: mace, count: 1},
+        sell: {
+          id: mace,
+          count: 1,
+          components: {
+            custom_name: "Hammush",
+            lore: ["A mushroom-forged hammer that grows stronger in damp caves."],
+            enchantments: {wind_burst: 5}
+          }
+        },
+        xp: 2,
+        priceMultiplier: 0.05f,
+        specialPrice: -2,
+        maxUses: 9999999
+      },
+      {
+        buy: {id: gold_block, count: 7},
+        buyB: {id: mace, count: 1},
+        sell: {
+          id: mace,
+          count: 1,
+          components: {
+            custom_name: "Ninja Hammer",
+            lore: ["Silent in strike, deadly in purpose—wielded by unseen warriors."],
+            enchantments: {density: 7, mending: 1}
+          }
+        },
+        xp: 3,
+        priceMultiplier: 0.05f,
+        specialPrice: -2,
+        maxUses: 9999999
+      },
+      {
+        buy: {id: amethyst_shard, count: 4},
+        buyB: {id: mace, count: 1},
+        sell: {
+          id: mace,
+          count: 1,
+          components: {
+            custom_name: "Slugger",
+            lore: ["A crystalline club built to shatter armor with brutal swings."],
+            enchantments: {breach: 6, unbreaking: 3}
+          }
+        },
+        xp: 3,
+        priceMultiplier: 0.05f,
+        specialPrice: -1,
+        maxUses: 9999999
+      },
+      {
+        buy: {id: iron_block, count: 1},
+        buyB: {id: mace, count: 1},
+        sell: {
+          id: mace,
+          count: 1,
+          components: {
+            custom_name: "Mjolnir",
+            lore: ["The hammer of thunder, only the worthy may wield it."],
+            enchantments: {wind_burst: 6, mending: 1}
+          }
+        },
+        xp: 3,
+        maxUses: 9999999
+      }
+    ]
+  }
+}

@@ -1,0 +1,184 @@
+/summon villager -321 86 187 {
+  VillagerData: {
+    profession: weaponsmith,
+    level: 2,
+    type: savanna
+  },
+  Invulnerable: 1,
+  PersistenceRequired: 1,
+  Silent: 1,
+  NoAI: 1,
+  Rotation: [270f, 0f],
+  CustomName: "Ancient Dragonheart",
+  active_effects: [
+    {
+      id: regeneration,
+      amplifier: 0,
+      duration: 999999,
+      show_particles: 0b
+    }
+  ],
+  Offers: {
+    Recipes: [
+      {
+        buy: {id: netherite_ingot, count: 2},
+        buyB: {id: mace, count: 1},
+        sell: {
+          id: mace,
+          count: 1,
+          components: {
+            custom_name: "Dragonheart Mace",
+            lore: ["Forged with the fury of dragonfire"],
+            enchantments: {
+              density: 10,
+              wind_burst: 5,
+              unbreaking: 3
+            }
+          }
+        },
+        xp: 3,
+        priceMultiplier: 0.05f,
+        specialPrice: -1,
+        maxUses: 9999999
+      },
+      {
+        buy: {id: netherite_ingot, count: 2},
+        buyB: {id: diamond_sword, count: 1},
+        sell: {
+          id: netherite_sword,
+          count: 1,
+          components: {
+            custom_name: "Dragonheart Sword",
+            lore: ["Blade blessed by the heart of dragons"],
+            enchantments: {
+              sweeping_edge: 5,
+              smite: 5,
+              looting: 4,
+              unbreaking: 3
+            }
+          }
+        },
+        xp: 3,
+        maxUses: 9999999
+      },
+      {
+        buy: {id: netherite_ingot, count: 2},
+        buyB: {id: diamond_axe, count: 1},
+        sell: {
+          id: netherite_axe,
+          count: 1,
+          components: {
+            custom_name: "Dragonheart Axe",
+            lore: ["Its strikes echo the roar of dragons"],
+            enchantments: {
+              sharpness: 7,
+              unbreaking: 3
+            }
+          }
+        },
+        xp: 3,
+        maxUses: 9999999
+      },
+      {
+        buy: {id: netherite_ingot, count: 2},
+        buyB: {id: diamond_pickaxe, count: 1},
+        sell: {
+          id: netherite_pickaxe,
+          count: 1,
+          components: {
+            custom_name: "Dragonheart Pickaxe",
+            lore: ["Mines with the strength of dragon claws"],
+            enchantments: {
+              unbreaking: 3,
+              fortune: 4,
+              mending: 1
+            }
+          }
+        },
+        xp: 3,
+        maxUses: 9999999
+      },
+      {
+        buy: {id: iron_nugget, count: 10},
+        buyB: {id: obsidian, count: 10},
+        sell: {
+          id: trident,
+          count: 1,
+          components: {
+            custom_name: "Ancient Trident",
+            lore: ["Wielded by the sea-dragons of old"],
+            enchantments: {
+              loyalty: 5,
+              riptide: 5
+            }
+          }
+        },
+        xp: 3,
+        priceMultiplier: 0.05f,
+        specialPrice: 1,
+        maxUses: 9999999
+      },
+      {
+        buy: {id: obsidian, count: 3},
+        buyB: {id: mace, count: 1},
+        sell: {
+          id: mace,
+          count: 1,
+          components: {
+            custom_name: "Ancient Mace",
+            lore: ["Crafted in the age of dragon wars"],
+            enchantments: {
+              breach: 5,
+              wind_burst: 5
+            }
+          }
+        },
+        xp: 3,
+        priceMultiplier: 0.05f,
+        specialPrice: 1,
+        maxUses: 9999999
+      },
+      {
+        buy: {id: obsidian, count: 20},
+        buyB: {id: diamond_sword, count: 1},
+        sell: {
+          id: netherite_sword,
+          count: 1,
+          components: {
+            custom_name: "Ancient Sword",
+            lore: ["A relic forged in dragonflame"],
+            enchantments: {
+              sweeping_edge: 5,
+              sharpness: 6,
+              looting: 3
+            }
+          }
+        },
+        xp: 3,
+        priceMultiplier: 0.05f,
+        specialPrice: 2,
+        maxUses: 9999999
+      },
+      {
+        buy: {id: obsidian, count: 12},
+        buyB: {id: diamond_axe, count: 1},
+        sell: {
+          id: netherite_axe,
+          count: 1,
+          components: {
+            custom_name: "Ancient Axe",
+            lore: ["An axe once wielded by dragon slayers"],
+            enchantments: {
+              smite: 5,
+              efficiency: 7
+            }
+          }
+        },
+        xp: 3,
+        priceMultiplier: 0.05f,
+        specialPrice: -1,
+        maxUses: 9999999
+      }
+    ]
+  }
+}
