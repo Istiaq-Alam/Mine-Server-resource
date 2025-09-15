@@ -1,0 +1,149 @@
+/summon villager -312 92 198 {
+  VillagerData: {
+    profession: weaponsmith,
+    level: 2,
+    type: plains
+  },
+  Invulnerable: 1,
+  PersistenceRequired: 1,
+  Silent: 1,
+  NoAI: 1,
+  Rotation: [180f, 0f],
+  CustomName: "Royal Combat",
+  active_effects: [
+    {
+      id: regeneration,
+      amplifier: 0,
+      duration: 999999,
+      show_particles: 0b
+    }
+  ],
+  Offers: {
+    Recipes: [
+      {
+        buy: {id: gold_block, count: 7},
+        buyB: {id: diamond_block, count: 7},
+        sell: {
+          id: trident,
+          count: 1,
+          components: {
+            custom_name: "Royal Trident",
+            lore: ["Wielded by kings to ","command the oceans in battle."],
+            enchantments: {unbreaking: 3, impaling: 6, riptide: 5}
+          }
+        },
+        xp: 3,
+        priceMultiplier: 0.05f,
+        specialPrice: -2,
+        maxUses: 9999999
+      },
+      {
+        buy: {id: gold_block, count: 4},
+        buyB: {id: mace, count: 1},
+        sell: {
+          id: mace,
+          count: 1,
+          components: {
+            custom_name: "Royal Mace",
+            lore: ["A crushing weapon of ","the royal guard’s might."],
+            enchantments: {breach: 6, wind_burst: 6, unbreaking: 1}
+          }
+        },
+        xp: 2,
+        priceMultiplier: 0.05f,
+        specialPrice: -2,
+        maxUses: 9999999
+      },
+      {
+        buy: {id: gold_block, count: 7},
+        buyB: {id: netherite_sword, count: 1},
+        sell: {
+          id: netherite_sword,
+          count: 1,
+          components: {
+            custom_name: "Royal Sword",
+            lore: ["The blade that defended ",
+                  "kingdoms through ages of war."],
+            enchantments: {sweeping_edge: 5, bane_of_arthropods: 6, unbreaking: 3, mending: 1}
+          }
+        },
+        xp: 3,
+        priceMultiplier: 0.05f,
+        specialPrice: -2,
+        maxUses: 9999999
+      },
+      {
+        buy: {id: gold_block, count: 4},
+        buyB: {id: obsidian, count: 4},
+        sell: {
+          id: shield,
+          count: 1,
+          components: {
+            custom_name: "Royal Shield",
+            lore: ["A shield forged to guard",
+                "the throne from every strike."],
+            enchantments: {unbreaking: 3, vanishing_curse: 1}
+          }
+        },
+        xp: 3,
+        priceMultiplier: 0.05f,
+        specialPrice: -2,
+        maxUses: 9999999
+      },
+      {
+        buy: {id: netherite_ingot, count: 2},
+        buyB: {id: obsidian, count: 4},
+        sell: {
+          id: mace,
+          count: 1,
+          components: {
+            custom_name: "Combat Mace",
+            lore: ["Once swung in duels of honor",
+                   "within the royal arena."],
+            enchantments: {wind_burst: 5, smite: 5, fire_aspect: 3}
+          }
+        },
+        xp: 3,
+        priceMultiplier: 0.05f,
+        specialPrice: -1,
+        maxUses: 9999999
+      },
+      {
+        buy: {id: diamond_block, count: 20},
+        buyB: {id: netherite_ingot, count: 2},
+        sell: {
+          id: netherite_sword,
+          count: 1,
+          components: {
+            custom_name: "Combat Sword",
+            lore: ["A master-forged blade for ",
+                  "champions of royal combat."],
+            enchantments: {sweeping_edge: 4, sharpness: 10, looting: 5, unbreaking: 5, mending: 1}
+          }
+        },
+        xp: 3,
+        priceMultiplier: 0.05f,
+        specialPrice: -2,
+        maxUses: 9999999
+      },
+      {
+        buy: {id: obsidian, count: 4},
+        buyB: {id: crossbow, count: 1},
+        sell: {
+          id: crossbow,
+          count: 1,
+          components: {
+            custom_name: "Combat Sniper",
+            lore: ["Favored by elite marksmen ",
+                  "of the royal battlegrounds."],
+            enchantments: {piercing: 5, quick_charge: 5, unbreaking: 3}
+          }
+        },
+        xp: 3,
+        priceMultiplier: 0.05f,
+        specialPrice: -2,
+        maxUses: 9999999
+      }
+    ]
+  }
+}
