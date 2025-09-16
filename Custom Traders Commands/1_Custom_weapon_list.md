@@ -235,7 +235,7 @@
 - Totem of the Berserker
 - Shishi
 
-25. JourneyMan
+25. JourneyMan                          ✅ Done
 - Saddle 
 - diamonhorse
 - goldhorse
