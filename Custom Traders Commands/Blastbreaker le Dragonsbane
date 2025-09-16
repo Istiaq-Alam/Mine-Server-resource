@@ -21,7 +21,7 @@
   Offers: {
     Recipes: [
       {
-        buy: {id: emerald_block, count: 25},
+        buy: {id: diamond_block, count: 25},
         buyB: {id: obsidian, count: 5},
         sell: {
           id: mace,
@@ -39,7 +39,7 @@
         maxUses: 9999999
       },
       {
-        buy: {id: emerald, count: 30},
+        buy: {id: diamond_block, count: 30},
         buyB: {id: crossbow, count: 1},
         sell: {
           id: crossbow,
@@ -57,7 +57,7 @@
         maxUses: 9999999
       },
       {
-        buy: {id: crying_obsidian, count: 10},
+        buy: {id: diamond_block, count: 20},
         buyB: {id: netherite_sword, count: 1},
         sell: {
           id: netherite_sword,
@@ -75,7 +75,7 @@
         maxUses: 9999999
       },
       {
-        buy: {id: crying_obsidian, count: 9},
+        buy: {id: diamond_block, count: 26},
         buyB: {id: netherite_axe, count: 1},
         sell: {
           id: netherite_axe,
@@ -93,7 +93,7 @@
         maxUses: 9999999
       },
       {
-        buy: {id: crying_obsidian, count: 8},
+        buy: {id: diamond_block, count: 28},
         buyB: {id: netherite_pickaxe, count: 1},
         sell: {
           id: netherite_pickaxe,
@@ -102,7 +102,7 @@
             custom_name: "Dragonsbane Pickaxe",
             lore: ["Cuts through stone like dragon",
                    "scales, but cursed to vanish."],
-            enchantments: {efficiency: 6, silk_touch: 1, unbreaking: 6, vanishing_curse: 1}
+            enchantments: {efficiency: 7, silk_touch: 1, unbreaking: 6, vanishing_curse: 1}
           }
         },
         xp: 3,
@@ -111,7 +111,7 @@
         maxUses: 9999999
       },
       {
-        buy: {id: crying_obsidian, count: 7},
+        buy: {id: diamond_block, count: 27},
         buyB: {id: crossbow, count: 1},
         sell: {
           id: crossbow,
@@ -120,7 +120,7 @@
             custom_name: "Dragonsbane Crossbow",
             lore: ["Bolts pierce even the",
                    "thickest of dragon hides."],
-            enchantments: {piercing: 5}
+            enchantments: {piercing: 6}
           }
         },
         xp: 3,
@@ -129,7 +129,7 @@
         maxUses: 9999999
       },
       {
-        buy: {id: crying_obsidian, count: 6},
+        buy: {id: diamond_block, count: 6},
         buyB: {id: netherite_shovel, count: 1},
         sell: {
           id: netherite_shovel,
@@ -147,7 +147,7 @@
         maxUses: 9999999
       },
       {
-        buy: {id: crying_obsidian, count: 5},
+        buy: {id: diamond_block, count: 5},
         buyB: {id: netherite_hoe, count: 1},
         sell: {
           id: netherite_hoe,
