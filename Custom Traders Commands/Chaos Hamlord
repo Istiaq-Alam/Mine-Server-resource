@@ -21,7 +21,7 @@
   Offers: {
     Recipes: [
       {
-        buy: {id: glowstone, count: 10},
+        buy: {id: diamond_block, count: 12},
         buyB: {id: mace, count: 1},
         sell: {
           id: mace,
@@ -38,7 +38,7 @@
         maxUses: 9999999
       },
       {
-        buy: {id: wind_charge, count: 14},
+        buy: {id: diamond_block, count: 18},
         buyB: {id: mace, count: 1},
         sell: {
           id: mace,
@@ -55,7 +55,7 @@
         maxUses: 9999999
       },
       {
-        buy: {id: diamond, count: 4},
+        buy: {id: diamond_block, count: 15},
         buyB: {id: mace, count: 1},
         sell: {
           id: mace,
@@ -72,7 +72,7 @@
         maxUses: 9999999
       },
       {
-        buy: {id: bone_block, count: 33},
+        buy: {id: diamond_block, count: 13},
         buyB: {id: mace, count: 1},
         sell: {
           id: mace,
@@ -87,7 +87,7 @@
         maxUses: 9999999
       },
       {
-        buy: {id: furnace, count: 4},
+        buy: {id: diamond_block, count: 14},
         buyB: {id: mace, count: 1},
         sell: {
           id: mace,
@@ -104,7 +104,7 @@
         maxUses: 9999999
       },
       {
-        buy: {id: lapis_block, count: 6},
+        buy: {id: diamond_block, count: 16},
         buyB: {id: mace, count: 1},
         sell: {
           id: mace,
@@ -121,7 +121,7 @@
         maxUses: 9999999
       },
       {
-        buy: {id: gold_block, count: 7},
+        buy: {id: gold_block, count: 28},
         buyB: {id: mace, count: 1},
         sell: {
           id: mace,
@@ -138,7 +138,7 @@
         maxUses: 9999999
       },
       {
-        buy: {id: amethyst_shard, count: 4},
+        buy: {id: diamond_block, count: 24},
         buyB: {id: mace, count: 1},
         sell: {
           id: mace,
@@ -155,7 +155,7 @@
         maxUses: 9999999
       },
       {
-        buy: {id: iron_block, count: 1},
+        buy: {id: diamond_block, count: 17},
         buyB: {id: mace, count: 1},
         sell: {
           id: mace,
