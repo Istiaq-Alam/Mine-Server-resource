@@ -16,7 +16,7 @@
     Offers:{
         Recipes:[
             {
-                buy:{id:diamond,count:15},
+                buy:{id:diamond_block,count:15},
                 buyB:{id:lapis_block,count:15},
                 sell:{
                     id:bow,
@@ -39,7 +39,7 @@
                 maxUses:9999999
             },
             {
-                buy:{id:redstone,count:20},
+                buy:{id:diamond_block,count:20},
                 buyB:{id:netherite_sword,count:1},
                 sell:{
                     id:netherite_sword,
@@ -62,7 +62,7 @@
                 maxUses:9999999
             },
             {
-                buy:{id:redstone,count:17},
+                buy:{id:diamond_block,count:17},
                 buyB:{id:netherite_axe,count:1},
                 sell:{
                     id:netherite_axe,
@@ -84,7 +84,7 @@
                 maxUses:9999999
             },
             {
-                buy:{id:redstone,count:19},
+                buy:{id:diamond_block,count:19},
                 buyB:{id:netherite_pickaxe,count:1},
                 sell:{
                     id:netherite_pickaxe,
@@ -106,7 +106,7 @@
                 maxUses:9999999
             },
             {
-                buy:{id:redstone_block,count:13},
+                buy:{id:diamond_block,count:13},
                 buyB:{id:emerald_block,count:1},
                 sell:{
                     id:shield,
@@ -127,7 +127,7 @@
                 maxUses:9999999
             },
             {
-                buy:{id:redstone,count:14},
+                buy:{id:diamond_block,count:14},
                 buyB:{id:netherite_shovel,count:1},
                 sell:{
                     id:netherite_shovel,
@@ -147,7 +147,7 @@
                 maxUses:9999999
             },
             {
-                buy:{id:redstone,count:10},
+                buy:{id:diamond_block,count:10},
                 buyB:{id:netherite_hoe,count:1},
                 sell:{
                     id:netherite_hoe,

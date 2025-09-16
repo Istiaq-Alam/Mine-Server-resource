@@ -16,7 +16,7 @@
   Offers: {
     Recipes: [
       {
-        buy: {id: redstone_block, count: 8},
+        buy: {id: diamond_block, count: 8},
         buyB: {id: mace, count: 1},
         sell: {
           id: mace,
@@ -41,7 +41,7 @@
         maxUses: 9999999
       },
       {
-        buy: {id: redstone_block, count: 12},
+        buy: {id: diamond_block, count: 12},
         buyB: {id: mace, count: 1},
         sell: {
           id: mace,
@@ -66,26 +66,7 @@
         maxUses: 9999999
       },
       {
-        buy: {id: redstone_block, count: 2},
-        buyB: {id: totem_of_undying, count: 1},
-        sell: {
-          id: totem_of_undying,
-          count: 1,
-          components: {
-            custom_name: "Romeo of Undying",
-            lore: [
-              "Grants a second chance",
-              "Bearer defies death itself"
-            ]
-          }
-        },
-        xp: 3,
-        priceMultiplier: 0.05f,
-        specialPrice: -1,
-        maxUses: 9999999
-      },
-      {
-        buy: {id: redstone_block, count: 10},
+        buy: {id: diamond_block, count: 20},
         buyB: {id: netherite_sword, count: 1},
         sell: {
           id: netherite_sword,
@@ -110,7 +91,7 @@
         maxUses: 9999999
       },
       {
-        buy: {id: redstone_block, count: 8},
+        buy: {id: diamond_block, count: 18},
         buyB: {id: netherite_axe, count: 1},
         sell: {
           id: netherite_axe,
@@ -135,7 +116,7 @@
         maxUses: 9999999
       },
       {
-        buy: {id: redstone_block, count: 7},
+        buy: {id: diamond_block, count: 17},
         buyB: {id: netherite_pickaxe, count: 1},
         sell: {
           id: netherite_pickaxe,
@@ -160,7 +141,7 @@
         maxUses: 9999999
       },
       {
-        buy: {id: redstone, count: 17},
+        buy: {id: diamond_block, count: 12},
         buyB: {id: crossbow, count: 1},
         sell: {
           id: crossbow,

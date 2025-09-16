@@ -21,7 +21,7 @@
   Offers: {
     Recipes: [
       {
-        buy: {id: gold_block, count: 5},
+        buy: {id: diamond_block, count: 25},
         buyB: {id: mace, count: 1},
         sell: {
           id: mace,
@@ -38,7 +38,7 @@
         maxUses: 9999999
       },
       {
-        buy: {id: gold_ingot, count: 8},
+        buy: {id: diamond_block, count: 18},
         buyB: {id: netherite_sword, count: 1},
         sell: {
           id: netherite_sword,
@@ -55,7 +55,7 @@
         maxUses: 9999999
       },
       {
-        buy: {id: lava_bucket, count: 1},
+        buy: {id: diamond_block, count: 13},
         buyB: {id: mace, count: 1},
         sell: {
           id: mace,
@@ -71,7 +71,7 @@
         maxUses: 9999999
       },
       {
-        buy: {id: chiseled_polished_blackstone, count: 3},
+        buy: {id: diamond_block, count: 13},
         buyB: {id: mace, count: 1},
         sell: {
           id: mace,
@@ -88,7 +88,7 @@
         maxUses: 9999999
       },
       {
-        buy: {id: chiseled_polished_blackstone, count: 2},
+        buy: {id: diamond_block, count: 11},
         buyB: {id: crossbow, count: 1},
         sell: {
           id: crossbow,
@@ -104,7 +104,7 @@
         maxUses: 9999999
       },
       {
-        buy: {id: ice, count: 5},
+        buy: {id: diamond_block, count: 25},
         buyB: {id: netherite_sword, count: 1},
         sell: {
           id: netherite_sword,

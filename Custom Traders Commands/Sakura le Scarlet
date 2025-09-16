@@ -20,7 +20,7 @@
   Offers: {
     Recipes: [
       {
-        buy: {id: pink_stained_glass_pane, count: 20},
+        buy: {id: diamond_block, count: 20},
         buyB: {id: netherite_sword, count: 1},
         sell: {
           id: netherite_sword,
@@ -37,7 +37,7 @@
         maxUses: 9999999
       },
       {
-        buy: {id: pink_stained_glass_pane, count: 25},
+        buy: {id: diamond_block, count: 25},
         buyB: {id: netherite_axe, count: 1},
         sell: {
           id: netherite_axe,
@@ -54,7 +54,7 @@
         maxUses: 9999999
       },
       {
-        buy: {id: pink_stained_glass_pane, count: 16},
+        buy: {id: diamond_block, count: 16},
         buyB: {id: netherite_shovel, count: 1},
         sell: {
           id: netherite_shovel,
@@ -71,7 +71,7 @@
         maxUses: 9999999
       },
       {
-        buy: {id: pink_stained_glass_pane, count: 11},
+        buy: {id: diamond_block, count: 11},
         buyB: {id: netherite_hoe, count: 1},
         sell: {
           id: netherite_hoe,
@@ -88,7 +88,7 @@
         maxUses: 9999999
       },
       {
-        buy: {id: red_stained_glass_pane, count: 15},
+        buy: {id: diamond_block, count: 25},
         buyB: {id: netherite_sword, count: 1},
         sell: {
           id: netherite_sword,
@@ -111,7 +111,7 @@
         maxUses: 9999999
       },
       {
-        buy: {id: red_stained_glass_pane, count: 14},
+        buy: {id: diamond_block, count: 24},
         buyB: {id: netherite_axe, count: 1},
         sell: {
           id: netherite_axe,
@@ -128,7 +128,7 @@
         maxUses: 9999999
       },
       {
-        buy: {id: red_stained_glass_pane, count: 10},
+        buy: {id: diamond_block, count: 20},
         buyB: {id: netherite_pickaxe, count: 1},
         sell: {
           id: netherite_pickaxe,
@@ -145,7 +145,7 @@
         maxUses: 9999999
       },
       {
-        buy: {id: red_stained_glass_pane, count: 5},
+        buy: {id: diamond_block, count: 15},
         buyB: {id: netherite_shovel, count: 1},
         sell: {
           id: netherite_shovel,

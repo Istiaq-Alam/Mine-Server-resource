@@ -16,7 +16,7 @@
     Recipes: [
       {
         buy: {id: gold_block, count: 8},
-        buyB: {id: prismarine_shard, count: 5},
+        buyB: {id: diamond_block, count: 5},
         sell: {
           id: mace,
           count: 1,
@@ -32,7 +32,7 @@
         maxUses: 9999999
       },
       {
-        buy: {id: dark_prismarine, count: 35},
+        buy: {id: diamond_block, count: 35},
         buyB: {id: gold_block, count: 14},
         sell: {
           id: netherite_sword,
@@ -40,7 +40,7 @@
           components: {
             custom_name: "Journey Sword",
             lore: ["A cursed flame that cuts through darkness."],
-            enchantments: {smite: 6, fire_aspect: 5, vanishing_curse: 1}
+            enchantments: {smite: 7, fire_aspect: 5, vanishing_curse: 1}
           }
         },
         xp: 3,
@@ -49,7 +49,7 @@
         maxUses: 9999999
       },
       {
-        buy: {id: gold_nugget, count: 34},
+        buy: {id: diamond_block, count: 34},
         buyB: {id: netherite_axe, count: 1},
         sell: {
           id: netherite_axe,
@@ -57,7 +57,7 @@
           components: {
             custom_name: "Journey Axe",
             lore: ["A sharp edge that endures every path."],
-            enchantments: {sharpness: 6, unbreaking: 3, mending: 1}
+            enchantments: {sharpness: 8, unbreaking: 3, mending: 1}
           }
         },
         xp: 3,
@@ -74,7 +74,7 @@
           components: {
             custom_name: "Journey Pickaxe",
             lore: ["Cuts deep into stone, smooth as silk."],
-            enchantments: {efficiency: 6, silk_touch: 1, unbreaking: 3}
+            enchantments: {efficiency: 8, silk_touch: 1, unbreaking: 5}
           }
         },
         xp: 3,
@@ -100,7 +100,7 @@
         maxUses: 9999999
       },
       {
-        buy: {id: prismarine, count: 10},
+        buy: {id: diamond_block, count: 8},
         buyB: {id: golden_shovel, count: 1},
         sell: {
           id: netherite_shovel,

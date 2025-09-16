@@ -21,7 +21,7 @@
   Offers: {
     Recipes: [
       {
-        buy: {id: diamond_block, count: 2},
+        buy: {id: diamond_block, count: 12},
         buyB: {id: obsidian, count: 3},
         sell: {
           id: crossbow,
@@ -42,7 +42,7 @@
         maxUses: 9999999
       },
       {
-        buy: {id: phantom_membrane, count: 5},
+        buy: {id: diamond_block, count: 15},
         buyB: {id: bow, count: 1},
         sell: {
           id: bow,
@@ -63,7 +63,7 @@
         maxUses: 9999999
       },
       {
-        buy: {id: phantom_membrane, count: 8},
+        buy: {id: diamond_block, count: 18},
         buyB: {id: crossbow, count: 1},
         sell: {
           id: crossbow,
@@ -84,7 +84,7 @@
         maxUses: 9999999
       },
       {
-        buy: {id: campfire, count: 8},
+        buy: {id: diamond_block, count: 28},
         buyB: {id: netherite_sword, count: 1},
         sell: {
           id: netherite_sword,
@@ -107,7 +107,7 @@
       },
       {
         buy: {id: iron_block, count: 2},
-        buyB: {id: obsidian, count: 4},
+        buyB: {id: diamond_block, count: 9},
         sell: {
           id: shield,
           count: 1,
@@ -125,7 +125,7 @@
         maxUses: 9999999
       },
       {
-        buy: {id: soul_campfire, count: 3},
+        buy: {id: diamond_block, count: 25},
         buyB: {id: netherite_sword, count: 1},
         sell: {
           id: netherite_sword,

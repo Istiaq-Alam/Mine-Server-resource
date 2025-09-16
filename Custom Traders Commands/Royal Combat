@@ -38,7 +38,7 @@
         maxUses: 9999999
       },
       {
-        buy: {id: gold_block, count: 4},
+        buy: {id: diamond_block, count: 14},
         buyB: {id: mace, count: 1},
         sell: {
           id: mace,
@@ -55,7 +55,7 @@
         maxUses: 9999999
       },
       {
-        buy: {id: gold_block, count: 7},
+        buy: {id: diamond_block, count: 17},
         buyB: {id: netherite_sword, count: 1},
         sell: {
           id: netherite_sword,
@@ -73,7 +73,7 @@
         maxUses: 9999999
       },
       {
-        buy: {id: gold_block, count: 4},
+        buy: {id: diamond_block, count: 14},
         buyB: {id: obsidian, count: 4},
         sell: {
           id: shield,
@@ -82,7 +82,7 @@
             custom_name: "Royal Shield",
             lore: ["A shield forged to guard",
                 "the throne from every strike."],
-            enchantments: {unbreaking: 3, vanishing_curse: 1}
+            enchantments: {unbreaking: 10, mending: 1}
           }
         },
         xp: 3,
@@ -100,7 +100,7 @@
             custom_name: "Combat Mace",
             lore: ["Once swung in duels of honor",
                    "within the royal arena."],
-            enchantments: {wind_burst: 5, smite: 5, fire_aspect: 3}
+            enchantments: {wind_burst: 5, smite: 5, fire_aspect: 5}
           }
         },
         xp: 3,
@@ -127,7 +127,7 @@
         maxUses: 9999999
       },
       {
-        buy: {id: obsidian, count: 4},
+        buy: {id: diamond_block, count: 5},
         buyB: {id: crossbow, count: 1},
         sell: {
           id: crossbow,
@@ -136,7 +136,7 @@
             custom_name: "Combat Sniper",
             lore: ["Favored by elite marksmen ",
                   "of the royal battlegrounds."],
-            enchantments: {piercing: 5, quick_charge: 5, unbreaking: 3}
+            enchantments: {piercing: 5, quick_charge: 5, unbreaking: 1}
           }
         },
         xp: 3,

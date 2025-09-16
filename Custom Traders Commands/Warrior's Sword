@@ -21,7 +21,7 @@
   Offers: {
     Recipes: [
       {
-        buy: {id: redstone_block, count: 3},
+        buy: {id: diamond_block, count: 33},
         buyB: {id: netherite_sword, count: 1},
         sell: {
           id: netherite_sword,
@@ -38,7 +38,7 @@
         maxUses: 9999999
       },
       {
-        buy: {id: soul_soil, count: 10},
+        buy: {id: diamond_block, count: 31},
         buyB: {id: netherite_sword, count: 1},
         sell: {
           id: netherite_sword,
@@ -55,7 +55,7 @@
         maxUses: 9999999
       },
       {
-        buy: {id: crying_obsidian, count: 4},
+        buy: {id: diamond_block, count: 34},
         buyB: {id: netherite_sword, count: 1},
         sell: {
           id: netherite_sword,
@@ -72,7 +72,7 @@
         maxUses: 9999999
       },
       {
-        buy: {id: fire_charge, count: 25},
+        buy: {id: diamond_block, count: 35},
         buyB: {id: netherite_sword, count: 1},
         sell: {
           id: netherite_sword,
@@ -89,7 +89,7 @@
         maxUses: 9999999
       },
       {
-        buy: {id: redstone_torch, count: 8},
+        buy: {id: diamond_block, count: 38},
         buyB: {id: netherite_sword, count: 1},
         sell: {
           id: netherite_sword,
@@ -104,7 +104,7 @@
         maxUses: 9999999
       },
       {
-        buy: {id: iron_block, count: 14},
+        buy: {id: diamond_block, count: 34},
         buyB: {id: netherite_sword, count: 1},
         sell: {
           id: netherite_sword,
@@ -121,7 +121,7 @@
         maxUses: 9999999
       },
       {
-        buy: {id: gold_block, count: 7},
+        buy: {id: diamond_block, count: 37},
         buyB: {id: netherite_sword, count: 1},
         sell: {
           id: netherite_sword,
@@ -136,7 +136,7 @@
         maxUses: 9999999
       },
       {
-        buy: {id: iron_block, count: 18},
+        buy: {id: diamond_block, count: 38},
         buyB: {id: netherite_sword, count: 1},
         sell: {
           id: netherite_sword,
@@ -152,7 +152,7 @@
         maxUses: 9999999
       },
       {
-        buy: {id: end_rod, count: 10},
+        buy: {id: diamond_block, count: 30},
         buyB: {id: netherite_sword, count: 1},
         sell: {
           id: netherite_sword,
@@ -167,7 +167,7 @@
         maxUses: 9999999
       },
       {
-        buy: {id: end_crystal, count: 8},
+        buy: {id: diamond_block, count: 64},
         buyB: {id: netherite_sword, count: 1},
         sell: {
           id: netherite_sword,

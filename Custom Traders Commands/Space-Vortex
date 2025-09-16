@@ -21,7 +21,7 @@
     Offers: {
         Recipes: [
             {
-                buy: {id: diamond_block, count: 6},
+                buy: {id: diamond_block, count: 16},
                 buyB: {id: mace, count: 1},
                 sell: {
                     id: mace,
@@ -41,7 +41,7 @@
                 maxUses: 9999999
             },
             {
-                buy: {id: diamond_block, count: 5},
+                buy: {id: diamond_block, count: 25},
                 buyB: {id: netherite_sword, count: 1},
                 sell: {
                     id: netherite_sword,
@@ -63,7 +63,7 @@
                 maxUses: 9999999
             },
             {
-                buy: {id: diamond_block, count: 4},
+                buy: {id: diamond_block, count: 24},
                 buyB: {id: netherite_axe, count: 1},
                 sell: {
                     id: netherite_axe,
@@ -85,7 +85,7 @@
                 maxUses: 9999999
             },
             {
-                buy: {id: golden_pickaxe, count: 1},
+                buy: {id: diamond_block, count: 21},
                 buyB: {id: netherite_pickaxe, count: 1},
                 sell: {
                     id: netherite_pickaxe,
@@ -126,7 +126,7 @@
                 maxUses: 9999999
             },
             {
-                buy: {id: iron_block, count: 3},
+                buy: {id: diamond_block, count: 13},
                 buyB: {id: bow, count: 1},
                 sell: {
                     id: bow,
@@ -146,7 +146,7 @@
                 maxUses: 9999999
             },
             {
-                buy: {id: emerald_block, count: 5},
+                buy: {id: emerald_block, count: 25},
                 buyB: {id: netherite_pickaxe, count: 1},
                 sell: {
                     id: netherite_pickaxe,
@@ -167,7 +167,7 @@
                 maxUses: 9999999
             },
             {
-                buy: {id: emerald_block, count: 3},
+                buy: {id: emerald_block, count: 23},
                 buyB: {id: netherite_axe, count: 1},
                 sell: {
                     id: netherite_axe,
@@ -187,7 +187,7 @@
                 maxUses: 9999999
             },
             {
-                buy: {id: emerald_block, count: 2},
+                buy: {id: emerald_block, count: 22},
                 buyB: {id: lapis_block, count: 2},
                 sell: {
                     id: shield,
@@ -206,7 +206,7 @@
                 maxUses: 9999999
             },
             {
-                buy: {id: emerald_block, count: 4},
+                buy: {id: emerald_block, count: 24},
                 buyB: {id: mace, count: 1},
                 sell: {
                     id: mace,

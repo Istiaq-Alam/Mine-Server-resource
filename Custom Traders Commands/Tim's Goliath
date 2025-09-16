@@ -42,7 +42,7 @@
         maxUses: 9999999
       },
       {
-        buy: {id: iron_block, count: 27},
+        buy: {id: iron_block, count: 54},
         buyB: {id: netherite_axe, count: 1},
         sell: {
           id: netherite_axe,
@@ -65,7 +65,7 @@
         maxUses: 9999999
       },
       {
-        buy: {id: iron_block, count: 22},
+        buy: {id: iron_block, count: 52},
         buyB: {id: gold_block, count: 56},
         sell: {
           id: netherite_pickaxe,
@@ -90,7 +90,7 @@
         maxUses: 9999999
       },
       {
-        buy: {id: gold_block, count: 10},
+        buy: {id: gold_block, count: 50},
         buyB: {id: iron_block, count: 10},
         sell: {
           id: shield,
@@ -113,7 +113,7 @@
         maxUses: 9999999
       },
       {
-        buy: {id: iron_block, count: 15},
+        buy: {id: iron_block, count: 40},
         buyB: {id: netherite_shovel, count: 1},
         sell: {
           id: netherite_shovel,
@@ -136,7 +136,7 @@
         maxUses: 9999999
       },
       {
-        buy: {id: saddle, count: 1},
+        buy: {id: diamond_block, count: 21},
         buyB: {id: netherite_sword, count: 1},
         sell: {
           id: netherite_sword,
@@ -159,7 +159,7 @@
         maxUses: 9999999
       },
       {
-        buy: {id: redstone, count: 30},
+        buy: {id: diamond_block, count: 13},
         buyB: {id: crossbow, count: 1},
         sell: {
           id: crossbow,
@@ -182,7 +182,7 @@
         maxUses: 9999999
       },
       {
-        buy: {id: redstone_block, count: 7},
+        buy: {id: diamond_block, count: 27},
         buyB: {id: netherite_axe, count: 1},
         sell: {
           id: netherite_axe,
@@ -190,8 +190,8 @@
           components: {
             custom_name: "Golden Goliath Axe",
             lore: [
-              "§7Holy might against the undead",
-              "§8Cursed to vanish on death"
+              "Holy might against the undead",
+              "Cursed to vanish on death"
             ],
             enchantments: {
               smite: 5,

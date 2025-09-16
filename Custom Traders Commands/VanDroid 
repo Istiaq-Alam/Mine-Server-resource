@@ -21,7 +21,7 @@
     Offers: {
         Recipes: [
             {
-                buy: {id: quartz_block, count: 5},
+                buy: {id: diamond_block, count: 25},
                 buyB: {id: netherite_sword, count: 1},
                 sell: {
                     id: netherite_sword,
@@ -43,7 +43,7 @@
                 maxUses: 9999999
             },
             {
-                buy: {id: quartz_block, count: 5},
+                buy: {id: diamond_block, count: 25},
                 buyB: {id: netherite_axe, count: 1},
                 sell: {
                     id: netherite_axe,
@@ -63,7 +63,7 @@
                 maxUses: 9999999
             },
             {
-                buy: {id: quartz_block, count: 4},
+                buy: {id: diamond_block, count: 24},
                 buyB: {id: netherite_pickaxe, count: 1},
                 sell: {
                     id: netherite_pickaxe,
@@ -84,7 +84,7 @@
                 maxUses: 9999999
             },
             {
-                buy: {id: quartz_block, count: 1},
+                buy: {id: quartz_block, count: 30},
                 buyB: {id: iron_block, count: 1},
                 sell: {
                     id: shield,
@@ -104,7 +104,7 @@
                 maxUses: 9999999
             },
             {
-                buy: {id: quartz_block, count: 3},
+                buy: {id: diamond_block, count: 13},
                 buyB: {id: netherite_shovel, count: 1},
                 sell: {
                     id: netherite_shovel,
@@ -123,7 +123,7 @@
                 maxUses: 9999999
             },
             {
-                buy: {id: quartz_block, count: 1},
+                buy: {id: diamond_block, count: 10},
                 buyB: {id: netherite_hoe, count: 1},
                 sell: {
                     id: netherite_hoe,
@@ -142,7 +142,7 @@
                 maxUses: 9999999
             },
             {
-                buy: {id: quartz_block, count: 3},
+                buy: {id: diamond_block, count: 13},
                 buyB: {id: bow, count: 1},
                 sell: {
                     id: bow,
@@ -162,7 +162,7 @@
                 maxUses: 9999999
             },
             {
-                buy: {id: redstone_block, count: 33},
+                buy: {id: diamond_block, count: 33},
                 buyB: {id: iron_block, count: 60},
                 sell: {
                     id: netherite_sword,
@@ -181,7 +181,7 @@
                 maxUses: 9999999
             },
             {
-                buy: {id: red_sandstone, count: 4},
+                buy: {id: diamond_block, count: 14},
                 buyB: {id: bow, count: 1},
                 sell: {
                     id: bow,
@@ -211,7 +211,7 @@
                         custom_name: "Droid Shield",
                         lore: ["Endurance of reinforced alloys"],
                         enchantments: {
-                            knockback: 5,
+                            knockback: 2,
                             unbreaking: 3
                         }
                     }
