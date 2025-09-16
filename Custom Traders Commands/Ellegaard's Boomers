@@ -21,7 +21,7 @@
     Recipes: [
       {
         buy: {id: gold_block, count: 20},
-        buyB: {id: redstone_block, count: 10},
+        buyB: {id: diamond_block, count: 10},
         sell: {
           id: trident,
           count: 1,
@@ -38,7 +38,7 @@
         maxUses: 9999999
       },
       {
-        buy: {id: redstone_block, count: 16},
+        buy: {id: diamond_block, count: 16},
         buyB: {id: netherite_pickaxe, count: 1},
         sell: {
           id: netherite_pickaxe,
@@ -55,7 +55,7 @@
         maxUses: 9999999
       },
       {
-        buy: {id: gold_block, count: 5},
+        buy: {id: diamond_block, count: 15},
         buyB: {id: netherite_sword, count: 1},
         sell: {
           id: netherite_sword,
@@ -73,7 +73,7 @@
         maxUses: 9999999
       },
       {
-        buy: {id: gold_ingot, count: 27},
+        buy: {id: diamond_block, count: 20},
         buyB: {id: netherite_axe, count: 1},
         sell: {
           id: netherite_axe,
@@ -90,7 +90,7 @@
         maxUses: 9999999
       },
       {
-        buy: {id: gold_ingot, count: 20},
+        buy: {id: diamond_block, count: 20},
         buyB: {id: netherite_pickaxe, count: 1},
         sell: {
           id: netherite_pickaxe,
@@ -108,7 +108,7 @@
         maxUses: 9999999
       },
       {
-        buy: {id: gold_block, count: 15},
+        buy: {id: gold_block, count: 5},
         buyB: {id: blackstone, count: 5},
         sell: {
           id: shield,
@@ -126,7 +126,7 @@
         maxUses: 9999999
       },
       {
-        buy: {id: blackstone, count: 7},
+        buy: {id: diamond_block, count: 7},
         buyB: {id: netherite_shovel, count: 1},
         sell: {
           id: netherite_shovel,
@@ -162,7 +162,7 @@
         maxUses: 9999999
       },
       {
-        buy: {id: redstone_block, count: 10},
+        buy: {id: diamond_block, count: 10},
         buyB: {id: mace, count: 1},
         sell: {
           id: mace,
