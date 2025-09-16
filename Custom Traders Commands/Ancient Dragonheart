@@ -21,7 +21,7 @@
   Offers: {
     Recipes: [
       {
-        buy: {id: netherite_ingot, count: 2},
+        buy: {id: netherite_block, count: 1},
         buyB: {id: mace, count: 1},
         sell: {
           id: mace,
@@ -31,18 +31,18 @@
             lore: ["Forged with the fury of dragonfire"],
             enchantments: {
               density: 10,
-              wind_burst: 5,
-              unbreaking: 3
+              wind_burst: 10,
+              unbreaking: 5
             }
           }
         },
-        xp: 3,
+        xp: 20,
         priceMultiplier: 0.05f,
         specialPrice: -1,
         maxUses: 9999999
       },
       {
-        buy: {id: netherite_ingot, count: 2},
+        buy: {id: netherite_block, count: 2},
         buyB: {id: diamond_sword, count: 1},
         sell: {
           id: netherite_sword,
@@ -51,10 +51,10 @@
             custom_name: "Dragonheart Sword",
             lore: ["Blade blessed by the heart of dragons"],
             enchantments: {
-              sweeping_edge: 5,
-              smite: 5,
-              looting: 4,
-              unbreaking: 3
+              sweeping_edge: 10,
+              smite: 6,
+              looting: 5,
+              unbreaking: 5
             }
           }
         },
@@ -62,7 +62,7 @@
         maxUses: 9999999
       },
       {
-        buy: {id: netherite_ingot, count: 2},
+        buy: {id: netherite_block, count: 1},
         buyB: {id: diamond_axe, count: 1},
         sell: {
           id: netherite_axe,
@@ -72,7 +72,7 @@
             lore: ["Its strikes echo the roar of dragons"],
             enchantments: {
               sharpness: 7,
-              unbreaking: 3
+              unbreaking: 4
             }
           }
         },
@@ -80,7 +80,7 @@
         maxUses: 9999999
       },
       {
-        buy: {id: netherite_ingot, count: 2},
+        buy: {id: netherite_block, count: 1},
         buyB: {id: diamond_pickaxe, count: 1},
         sell: {
           id: netherite_pickaxe,
@@ -90,7 +90,7 @@
             lore: ["Mines with the strength of dragon claws"],
             enchantments: {
               unbreaking: 3,
-              fortune: 4,
+              fortune: 5,
               mending: 1
             }
           }
@@ -99,7 +99,7 @@
         maxUses: 9999999
       },
       {
-        buy: {id: iron_nugget, count: 10},
+        buy: {id: diamond_block, count: 6},
         buyB: {id: obsidian, count: 10},
         sell: {
           id: trident,
@@ -119,7 +119,7 @@
         maxUses: 9999999
       },
       {
-        buy: {id: obsidian, count: 3},
+        buy: {id: diamoobs, count: 8},
         buyB: {id: mace, count: 1},
         sell: {
           id: mace,
@@ -139,7 +139,7 @@
         maxUses: 9999999
       },
       {
-        buy: {id: obsidian, count: 20},
+        buy: {id: diamond_block, count: 20},
         buyB: {id: diamond_sword, count: 1},
         sell: {
           id: netherite_sword,
@@ -160,7 +160,7 @@
         maxUses: 9999999
       },
       {
-        buy: {id: obsidian, count: 12},
+        buy: {id: diamond_block, count: 12},
         buyB: {id: diamond_axe, count: 1},
         sell: {
           id: netherite_axe,
@@ -169,7 +169,7 @@
             custom_name: "Ancient Axe",
             lore: ["An axe once wielded by dragon slayers"],
             enchantments: {
-              smite: 5,
+              smite: 6,
               efficiency: 7
             }
           }
