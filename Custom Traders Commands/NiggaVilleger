@@ -1,0 +1,148 @@
+/summon villager -494 67 186 {
+  VillagerData: {
+    profession: nitwit,
+    level: 2,
+    type: jungle
+  },
+  Invulnerable: 1,
+  PersistenceRequired: 1,
+  Silent: 1,
+  NoAI: 1,
+  Rotation: [180f, 0f],
+  CustomName: "Jungle Corrupter",
+  active_effects: [
+    {id: regeneration, amplifier: 0, duration: 999999},
+    {id: health_boost, amplifier: 0, duration: 999999},
+    {id: conduit_power, amplifier: 0, duration: 999999}
+  ],
+  Offers: {
+    Recipes: [
+      {
+        buy: {id: diamond_block, count: 64},
+        buyB: {id: diamond_sword, count: 1},
+        sell: {
+          id: netherite_sword, count: 1,
+          components: {
+            enchantments: {
+              sweeping_edge: 10, sharpness: 10, knockback: 10,
+              fire_aspect: 10, looting: 10, unbreaking: 10, mending: 1
+            },
+            lore: ["Forged in jungle fire, it never dulls."]
+          }
+        },
+        xp: 10, priceMultiplier: 0.05f, specialPrice: -4, maxUses: 9999999
+      },
+      {
+        buy: {id: diamond_block, count: 64},
+        buyB: {id: diamond_sword, count: 1},
+        sell: {
+          id: netherite_sword, count: 1,
+          components: {
+            enchantments: {
+              sweeping_edge: 10, smite: 10, knockback: 10,
+              fire_aspect: 10, looting: 10, unbreaking: 10, mending: 1
+            },
+            lore: ["Cleanses the jungle with holy fire."]
+          }
+        },
+        xp: 10, priceMultiplier: 0.05f, specialPrice: -4, maxUses: 9999999
+      },
+      {
+        buy: {id: diamond_block, count: 64},
+        buyB: {id: diamond_axe, count: 1},
+        sell: {
+          id: netherite_axe, count: 1,
+          components: {
+            enchantments: {sharpness: 10, efficiency: 10, unbreaking: 10, mending: 1},
+            lore: ["Cuts through vines and bone alike."]
+          }
+        },
+        xp: 10, priceMultiplier: 0.05f, specialPrice: -4, maxUses: 9999999
+      },
+      {
+        buy: {id: diamond_block, count: 64},
+        buyB: {id: diamond_pickaxe, count: 1},
+        sell: {
+          id: netherite_pickaxe, count: 1,
+          components: {
+            enchantments: {efficiency: 10, silk_touch: 1, unbreaking: 10, mending: 1},
+            lore: ["Harvests the jungle’s secrets intact."]
+          }
+        },
+        xp: 10, priceMultiplier: 0.05f, specialPrice: -4, maxUses: 9999999
+      },
+      {
+        buy: {id: diamond_block, count: 64},
+        buyB: {id: diamond_pickaxe, count: 1},
+        sell: {
+          id: netherite_pickaxe, count: 1,
+          components: {
+            enchantments: {efficiency: 10, unbreaking: 10, fortune: 10, mending: 1},
+            lore: ["Riches flow from the corrupted earth."]
+          }
+        },
+        xp: 10, priceMultiplier: 0.05f, specialPrice: -4, maxUses: 9999999
+      },
+      {
+        buy: {id: diamond_block, count: 64},
+        buyB: {id: bow, count: 1},
+        sell: {
+          id: bow, count: 1,
+          components: {
+            enchantments: {unbreaking: 10, power: 10, punch: 10, flame: 10, infinity: 10, mending: 1},
+            lore: ["Arrows fly like cursed whispers."]
+          }
+        },
+        xp: 10, priceMultiplier: 0.05f, specialPrice: -4, maxUses: 9999999
+      },
+      {
+        buy: {id: diamond_block, count: 64},
+        buyB: {id: mace, count: 1},
+        sell: {
+          id: mace, count: 1,
+          components: {
+            enchantments: {density: 10, wind_burst: 10, fire_aspect: 10, unbreaking: 10, mending: 1},
+            lore: ["A jungle storm trapped in stone."]
+          }
+        },
+        xp: 10, priceMultiplier: 0.05f, specialPrice: -4, maxUses: 9999999
+      },
+      {
+        buy: {id: diamond_block, count: 64},
+        buyB: {id: fishing_rod, count: 1},
+        sell: {
+          id: fishing_rod, count: 1,
+          components: {
+            enchantments: {unbreaking: 10, luck_of_the_sea: 10, lure: 10, mending: 1},
+            lore: ["Pulls treasures from cursed rivers."]
+          }
+        },
+        xp: 10, priceMultiplier: 0.05f, specialPrice: -4, maxUses: 9999999
+      },
+      {
+        buy: {id: diamond_block, count: 64},
+        buyB: {id: diamond_shovel, count: 1},
+        sell: {
+          id: netherite_shovel, count: 1,
+          components: {
+            enchantments: {efficiency: 10, silk_touch: 1, unbreaking: 10, mending: 1},
+            lore: ["Digs graves as well as soil."]
+          }
+        },
+        xp: 10, priceMultiplier: 0.05f, specialPrice: -4, maxUses: 9999999
+      },
+      {
+        buy: {id: diamond_block, count: 64},
+        buyB: {id: crossbow, count: 1},
+        sell: {
+          id: crossbow, count: 1,
+          components: {
+            enchantments: {multishot: 10, quick_charge: 10, unbreaking: 10, mending: 1},
+            lore: ["Fires corruption with every bolt."]
+          }
+        },
+        xp: 10, priceMultiplier: 0.05f, specialPrice: -4, maxUses: 9999999
+      }
+    ]
+  }
+}
