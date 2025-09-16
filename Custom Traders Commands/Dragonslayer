@@ -21,7 +21,7 @@
     Offers: {
         Recipes: [
             {
-                buy: {id: iron_block, count: 14},
+                buy: {id: diamond_block, count: 14},
                 buyB: {id: netherite_sword, count: 1},
                 sell: {
                     id: netherite_sword,
@@ -48,7 +48,7 @@
                 maxUses: 9999999
             },
             {
-                buy: {id: iron_block, count: 14},
+                buy: {id: diamond_block, count: 14},
                 buyB: {id: netherite_axe, count: 1},
                 sell: {
                     id: netherite_axe,
@@ -73,7 +73,7 @@
                 maxUses: 9999999
             },
             {
-                buy: {id: iron_block, count: 16},
+                buy: {id: diamond_block, count: 16},
                 buyB: {id: netherite_pickaxe, count: 1},
                 sell: {
                     id: netherite_pickaxe,
@@ -96,7 +96,7 @@
                 maxUses: 9999999
             },
             {
-                buy: {id: iron_block, count: 5},
+                buy: {id: diamond_block, count: 5},
                 buyB: {id: lapis_block, count: 2},
                 sell: {
                     id: shield,
@@ -119,7 +119,7 @@
                 maxUses: 9999999
             },
             {
-                buy: {id: iron_block, count: 4},
+                buy: {id: diamond_block, count: 4},
                 buyB: {id: netherite_shovel, count: 1},
                 sell: {
                     id: netherite_shovel,
@@ -142,7 +142,7 @@
                 maxUses: 9999999
             },
             {
-                buy: {id: iron_block, count: 3},
+                buy: {id: diamond_block, count: 3},
                 buyB: {id: netherite_hoe, count: 1},
                 sell: {
                     id: netherite_hoe,
@@ -165,7 +165,7 @@
                 maxUses: 9999999
             },
             {
-                buy: {id: iron_block, count: 2},
+                buy: {id: diamond_block, count: 12},
                 buyB: {id: crossbow, count: 1},
                 sell: {
                     id: crossbow,
