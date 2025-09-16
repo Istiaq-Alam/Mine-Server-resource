@@ -21,7 +21,7 @@
   Offers: {
     Recipes: [
       {
-        buy: {id: diamond, count: 5},
+        buy: {id: diamond_block, count: 5},
         buyB: {id: trident, count: 1},
         sell: {
           id: trident,
@@ -38,7 +38,7 @@
         maxUses: 9999999
       },
       {
-        buy: {id: prismarine, count: 3},
+        buy: {id: diamond_block, count: 13},
         buyB: {id: trident, count: 1},
         sell: {
           id: trident,
@@ -46,14 +46,14 @@
           components: {
             custom_name: "Kemetian Trident",
             lore: ["A relic of ancient waters, carved with forgotten runes."],
-            enchantments: {loyalty: 5, impaling: 6}
+            enchantments: {loyalty: 5, impaling: 7}
           }
         },
         xp: 3,
         maxUses: 9999999
       },
       {
-        buy: {id: iron_block, count: 1},
+        buy: {id: diamond_block, count: 7},
         buyB: {id: trident, count: 1},
         sell: {
           id: trident,
@@ -68,7 +68,7 @@
         maxUses: 9999999
       },
       {
-        buy: {id: blackstone, count: 4},
+        buy: {id: diamond_block, count: 14},
         buyB: {id: trident, count: 1},
         sell: {
           id: trident,
@@ -76,14 +76,14 @@
           components: {
             custom_name: "Trident Before Christmas",
             lore: ["Forged in festive chaos, it strikes with eerie cheer."],
-            enchantments: {unbreaking: 3, mending: 1}
+            enchantments: {unbreaking: 9, mending: 1}
           }
         },
         xp: 3,
         maxUses: 9999999
       },
       {
-        buy: {id: copper_ingot, count: 10},
+        buy: {id: diamond_block, count: 10},
         buyB: {id: trident, count: 1},
         sell: {
           id: trident,
@@ -91,7 +91,7 @@
           components: {
             custom_name: "Light Trident",
             lore: ["A divine spear crackling with unending storms."],
-            enchantments: {unbreaking: 5, loyalty: 5, impaling: 6, channeling: 1}
+            enchantments: {unbreaking: 5, loyalty: 6, impaling: 6, channeling: 1}
           }
         },
         xp: 4,
@@ -100,7 +100,7 @@
         maxUses: 9999999
       },
       {
-        buy: {id: blue_ice, count: 10},
+        buy: {id: diamond_block, count: 9},
         buyB: {id: trident, count: 1},
         sell: {
           id: trident,
@@ -117,7 +117,7 @@
         maxUses: 9999999
       },
       {
-        buy: {id: crying_obsidian, count: 8},
+        buy: {id: diamond_block, count: 16},
         buyB: {id: trident, count: 1},
         sell: {
           id: trident,
@@ -125,7 +125,7 @@
           components: {
             custom_name: "Sinitic Trident",
             lore: ["Odin’s eternal spear, said never to miss its mark."],
-            enchantments: {unbreaking: 5, loyalty: 5, riptide: 3}
+            enchantments: {unbreaking: 5, loyalty: 5, riptide: 5}
           }
         },
         xp: 3,
@@ -134,7 +134,7 @@
         maxUses: 9999999
       },
       {
-        buy: {id: gold_block, count: 5},
+        buy: {id: gold_block, count: 20},
         buyB: {id: trident, count: 1},
         sell: {
           id: trident,
@@ -142,7 +142,7 @@
           components: {
             custom_name: "Ancient Trident",
             lore: ["Silent as the tide, deadly as the blade."],
-            enchantments: {unbreaking: 3, loyalty: 5, impaling: 5}
+            enchantments: {unbreaking: 5, loyalty: 5, impaling: 5}
           }
         },
         xp: 3,
