@@ -1,4 +1,4 @@
-/summon villager -302 86 192 {
+/summon villager 39 86 20 {
     VillagerData:{
         profession:librarian,
         level:2,
