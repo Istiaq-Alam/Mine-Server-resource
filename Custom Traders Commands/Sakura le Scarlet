@@ -1,4 +1,4 @@
-/summon villager -312 92 176 {
+/summon villager 23 92 21 {
   VillagerData: {
     profession: weaponsmith,
     level: 2,
@@ -8,6 +8,7 @@
   PersistenceRequired: 1,
   Silent: 1,
   NoAI: 1,
+  Rotation: [180f, 0f],
   CustomName: "Sakura le Scarlet",
   active_effects: [
     {
