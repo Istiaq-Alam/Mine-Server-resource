@@ -1,4 +1,4 @@
-/summon villager -307 86 182 {
+/summon villager 34 86 8 {
   VillagerData: {
     profession: armorer,
     level: 2,
@@ -8,6 +8,7 @@
   PersistenceRequired: 1,
   Silent: 1,
   NoAI: 1,
+  Rotation: [135f, 0f],
   CustomName: "Ellegaard's Boomers",
   active_effects: [
     {
