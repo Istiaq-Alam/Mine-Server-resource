@@ -1,4 +1,4 @@
-/summon villager -288 87 191 {
+/summon villager 13 92 5 {
   VillagerData: {
     profession: weaponsmith,
     level: 2,
@@ -8,7 +8,7 @@
   PersistenceRequired: 1,
   Silent: 1,
   NoAI: 1,
-  Rotation: [180f, 0f],
+  Rotation: [0f, 0f],
   CustomName: "Warrior's Sword",
   active_effects: [
     {
