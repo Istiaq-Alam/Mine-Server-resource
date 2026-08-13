@@ -1,10 +1,10 @@
-/summon villager -312 86 187 {
+/summon villager 46 86 13 {
     VillagerData: {profession: cartographer, level: 5, type: plains},
     Invulnerable: 1,
     PersistenceRequired: 1,
     Silent: 1,
     NoAI: 1,
-    Rotation: [270f, 0f],
+    Rotation: [90f, 0f],
     CustomName: "Adamantium le Swordbreaker",
     active_effects: [{id: regeneration, amplifier: 0, duration: 999999, show_particles: 0b}],
     Offers: {Recipes: [
