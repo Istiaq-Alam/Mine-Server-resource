@@ -1,4 +1,4 @@
-/summon villager -312 86 192 {
+/summon villager 44 86 8 {
   VillagerData: {
     profession: cleric,
     level: 2,
@@ -8,7 +8,7 @@
   PersistenceRequired: 1,
   Silent: 1,
   NoAI: 1,
-  Rotation: [225f, 0f],
+  Rotation: [45f, 0f],
   CustomName: "Blastbreaker le Dragonsbane",
   active_effects: [
     {
