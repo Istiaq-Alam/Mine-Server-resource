@@ -1,4 +1,4 @@
-/summon villager -284 87 183 {
+/summon villager 21 92 5 {
   VillagerData: {
     profession: fletcher,
     level: 2,
@@ -8,6 +8,7 @@
   PersistenceRequired: 1,
   Silent: 1,
   NoAI: 1,
+  Rotation: [0f, 0f],
   CustomName: "Ballistic Fletcher",
   active_effects: [
     {
