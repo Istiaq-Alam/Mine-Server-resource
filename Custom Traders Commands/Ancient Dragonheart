@@ -1,4 +1,4 @@
-/summon villager -321 86 187 {
+/summon villager 7 92 17 {
   VillagerData: {
     profession: weaponsmith,
     level: 2,
