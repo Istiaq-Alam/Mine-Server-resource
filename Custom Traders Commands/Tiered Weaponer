@@ -1,4 +1,4 @@
-/summon villager -292 87 191 {
+/summon villager 7 92 9 {
     VillagerData:{
         profession:weaponsmith,
         level:2,
@@ -8,7 +8,7 @@
     PersistenceRequired:1,
     Silent:1,
     NoAI:1,
-    Rotation:[180f,0f], 
+    Rotation:[270f,0f], 
     CustomName:"Tiered Weaponer",
     active_effects:[
         {id:regeneration, amplifier:0, duration:999999, show_particles:0b}
