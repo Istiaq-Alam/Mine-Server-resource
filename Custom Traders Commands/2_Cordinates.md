@@ -1,4 +1,6 @@
 # Trader Coordinates
+NB : yRot - The y-rotation that the villager is facing in degrees. 0=South, 90=West, 180=North, 270=East.
+xRot - The x-rotation that the villager is facing in degrees. Positive values look downward and negative values look upward. 0=facing forward, 90=facing straight down, -90=facing straight up
 
 |  # | Floor | Trader Name                 | Coordinates (X Y Z) | Status |
 | -: | :---: | --------------------------- | :-----------------: | :----: |
