@@ -1,4 +1,4 @@
-/summon villager -302 86 182 {
+/summon villager 44 86 18 {
   VillagerData: {
     profession: weaponsmith,
     level: 2,
@@ -8,6 +8,7 @@
   PersistenceRequired: 1,
   Silent: 1,
   NoAI: 1,
+  Rotation: [135f, 0f],
   CustomName: "Tim's Goliath",
   active_effects: [
     {id: regeneration, amplifier: 0, duration: 999999, show_particles: 0b}
