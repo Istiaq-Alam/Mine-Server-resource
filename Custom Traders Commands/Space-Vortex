@@ -1,4 +1,4 @@
-/summon villager -318 92 182 {
+/summon villager 39 92 27 {
     VillagerData: {
         profession: weaponsmith,
         level: 2,
@@ -8,7 +8,7 @@
     PersistenceRequired: 1,
     Silent: 1,
     NoAI: 1,
-    Rotation: [270f, 0f],
+    Rotation: [180f, 0f],
     CustomName: "Space-Vortex",
     active_effects: [
         {
