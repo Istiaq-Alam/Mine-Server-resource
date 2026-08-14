@@ -1,303 +1,272 @@
-/summon minecraft:villager 219 31 -4 {
+/summon villager 219 31 -4 {
     VillagerData:{
-        profession:"minecraft:weaponsmith",
+        profession:weaponsmith,
         level:5,
-        type:"minecraft:taiga"
+        type:savanna
     },
-    Invulnerable:1b,
-    PersistenceRequired:1b,
-    Silent:1b,
-    NoAI:1b,
+    Invulnerable:1,
+    PersistenceRequired:1,
+    Silent:1,
+    NoAI:1,
     Rotation: [90f, 0f],
-    CustomName:'{"text":"Admin","color":"gold","bold":true}',
+    CustomName:Admin,
     Offers:{
         Recipes:[
-
             {
                 buy:{
-                    id:"minecraft:diamond_block",
+                    id:diamond_block,
                     count:1
                 },
                 buyB:{
-                    id:"minecraft:diamond_sword",
+                    id:diamond_sword,
                     count:1
                 },
                 sell:{
-                    id:"minecraft:diamond_sword",
+                    id:diamond_sword,
                     count:1,
                     components:{
-                        "minecraft:enchantments":{
-                            levels:{
-                                "minecraft:sweeping_edge":10,
-                                "minecraft:sharpness":10,
-                                "minecraft:knockback":10,
-                                "minecraft:fire_aspect":10,
-                                "minecraft:looting":10,
-                                "minecraft:unbreaking":10,
-                                "minecraft:mending":1
-                            }
+                        enchantments:{
+                            sweeping_edge:10,
+                            sharpness:10,
+                            knockback:10,
+                            fire_aspect:10,
+                            looting:10,
+                            unbreaking:10,
+                            mending:1
                         }
                     }
                 },
                 xp:5,
                 maxUses:9999999
             },
-
             {
                 buy:{
-                    id:"minecraft:diamond_block",
+                    id:diamond_block,
                     count:1
                 },
                 buyB:{
-                    id:"minecraft:diamond_axe",
+                    id:diamond_axe,
                     count:1
                 },
                 sell:{
-                    id:"minecraft:diamond_axe",
+                    id:diamond_axe,
                     count:1,
                     components:{
-                        "minecraft:enchantments":{
-                            levels:{
-                                "minecraft:sharpness":10,
-                                "minecraft:efficiency":10,
-                                "minecraft:unbreaking":10,
-                                "minecraft:mending":1
-                            }
+                        enchantments:{
+                            sharpness:10,
+                            efficiency:10,
+                            unbreaking:10,
+                            mending:1
                         }
                     }
                 },
                 xp:3,
                 maxUses:9999999
             },
-
             {
                 buy:{
-                    id:"minecraft:diamond_block",
+                    id:diamond_block,
                     count:1
                 },
                 buyB:{
-                    id:"minecraft:diamond_pickaxe",
+                    id:diamond_pickaxe,
                     count:1
                 },
                 sell:{
-                    id:"minecraft:diamond_pickaxe",
+                    id:diamond_pickaxe,
                     count:1,
                     components:{
-                        "minecraft:enchantments":{
-                            levels:{
-                                "minecraft:efficiency":10,
-                                "minecraft:unbreaking":10,
-                                "minecraft:fortune":10,
-                                "minecraft:mending":1
-                            }
+                        enchantments:{
+                            efficiency:10,
+                            unbreaking:10,
+                            fortune:10,
+                            mending:1
                         }
                     }
                 },
                 xp:4,
                 maxUses:9999999
             },
-
             {
                 buy:{
-                    id:"minecraft:diamond_block",
+                    id:diamond_block,
                     count:1
                 },
                 buyB:{
-                    id:"minecraft:diamond_pickaxe",
+                    id:diamond_pickaxe,
                     count:1
                 },
                 sell:{
-                    id:"minecraft:diamond_pickaxe",
+                    id:diamond_pickaxe,
                     count:1,
                     components:{
-                        "minecraft:enchantments":{
-                            levels:{
-                                "minecraft:efficiency":10,
-                                "minecraft:silk_touch":1,
-                                "minecraft:unbreaking":10,
-                                "minecraft:mending":1
-                            }
+                        enchantments:{
+                            efficiency:10,
+                            silk_touch:1,
+                            unbreaking:10,
+                            mending:1
                         }
                     }
                 },
                 xp:5,
                 maxUses:9999999
             },
-
             {
                 buy:{
-                    id:"minecraft:diamond_block",
+                    id:diamond_block,
                     count:1
                 },
                 buyB:{
-                    id:"minecraft:diamond_spear",
+                    id:diamond_spear,
                     count:1
                 },
                 sell:{
-                    id:"minecraft:diamond_spear",
+                    id:diamond_spear,
                     count:1,
                     components:{
-                        "minecraft:enchantments":{
-                            levels:{
-                                "minecraft:lunge":10,
-                                "minecraft:sharpness":10,
-                                "minecraft:knockback":10,
-                                "minecraft:fire_aspect":10,
-                                "minecraft:looting":10,
-                                "minecraft:unbreaking":10,
-                                "minecraft:mending":1
-                            }
+                        enchantments:{
+                            lunge:10,
+                            sharpness:10,
+                            knockback:10,
+                            fire_aspect:10,
+                            looting:10,
+                            unbreaking:10,
+                            mending:1
                         }
                     }
                 },
                 xp:5,
                 maxUses:9999999
             },
-
             {
                 buy:{
-                    id:"minecraft:diamond_block",
+                    id:diamond_block,
                     count:1
                 },
                 buyB:{
-                    id:"minecraft:diamond_sword",
+                    id:diamond_sword,
                     count:1
                 },
                 sell:{
-                    id:"minecraft:diamond_sword",
+                    id:diamond_sword,
                     count:1,
                     components:{
-                        "minecraft:enchantments":{
-                            levels:{
-                                "minecraft:sweeping_edge":10,
-                                "minecraft:sharpness":10,
-                                "minecraft:knockback":10,
-                                "minecraft:fire_aspect":10,
-                                "minecraft:looting":10,
-                                "minecraft:unbreaking":10,
-                                "minecraft:mending":1
-                            }
+                        enchantments:{
+                            sweeping_edge:10,
+                            sharpness:10,
+                            knockback:10,
+                            fire_aspect:10,
+                            looting:10,
+                            unbreaking:10,
+                            mending:1
                         }
                     }
                 },
                 xp:9,
                 maxUses:9999999
             },
-
             {
                 buy:{
-                    id:"minecraft:diamond_block",
+                    id:diamond_block,
                     count:1
                 },
                 buyB:{
-                    id:"minecraft:diamond_helmet",
+                    id:diamond_helmet,
                     count:1
                 },
                 sell:{
-                    id:"minecraft:diamond_helmet",
+                    id:diamond_helmet,
                     count:1,
                     components:{
-                        "minecraft:enchantments":{
-                            levels:{
-                                "minecraft:protection":10,
-                                "minecraft:respiration":10,
-                                "minecraft:aqua_affinity":1,
-                                "minecraft:thorns":10,
-                                "minecraft:unbreaking":10,
-                                "minecraft:mending":1
-                            }
+                        enchantments:{
+                            protection:10,
+                            respiration:10,
+                            aqua_affinity:1,
+                            thorns:10,
+                            unbreaking:10,
+                            mending:1
                         }
                     }
                 },
                 xp:8,
                 maxUses:9999999
             },
-
             {
                 buy:{
-                    id:"minecraft:diamond_block",
+                    id:diamond_block,
                     count:1
                 },
                 buyB:{
-                    id:"minecraft:diamond_chestplate",
+                    id:diamond_chestplate,
                     count:1
                 },
                 sell:{
-                    id:"minecraft:diamond_chestplate",
+                    id:diamond_chestplate,
                     count:1,
                     components:{
-                        "minecraft:enchantments":{
-                            levels:{
-                                "minecraft:blast_protection":10,
-                                "minecraft:thorns":10,
-                                "minecraft:unbreaking":10,
-                                "minecraft:mending":1
-                            }
+                        enchantments:{
+                            blast_protection:10,
+                            thorns:10,
+                            unbreaking:10,
+                            mending:1
                         }
                     }
                 },
                 xp:9,
                 maxUses:9999999
             },
-
             {
                 buy:{
-                    id:"minecraft:diamond_block",
+                    id:diamond_block,
                     count:1
                 },
                 buyB:{
-                    id:"minecraft:diamond_leggings",
+                    id:diamond_leggings,
                     count:1
                 },
                 sell:{
-                    id:"minecraft:diamond_leggings",
+                    id:diamond_leggings,
                     count:1,
                     components:{
-                        "minecraft:enchantments":{
-                            levels:{
-                                "minecraft:swift_sneak":5,
-                                "minecraft:projectile_protection":10,
-                                "minecraft:thorns":10,
-                                "minecraft:unbreaking":10,
-                                "minecraft:mending":1
-                            }
+                        enchantments:{
+                            swift_sneak:5,
+                            projectile_protection:10,
+                            thorns:10,
+                            unbreaking:3,
+                            mending:1
                         }
                     }
                 },
                 xp:10,
                 maxUses:9999999
             },
-
             {
                 buy:{
-                    id:"minecraft:diamond_block",
+                    id:diamond_block,
                     count:1
                 },
                 buyB:{
-                    id:"minecraft:diamond_boots",
+                    id:diamond_boots,
                     count:1
                 },
                 sell:{
-                    id:"minecraft:diamond_boots",
+                    id:diamond_boots,
                     count:1,
                     components:{
-                        "minecraft:enchantments":{
-                            levels:{
-                                "minecraft:soul_speed":5,
-                                "minecraft:protection":10,
-                                "minecraft:feather_falling":10,
-                                "minecraft:thorns":10,
-                                "minecraft:depth_strider":5,
-                                "minecraft:unbreaking":10,
-                                "minecraft:mending":1
-                            }
+                        enchantments:{
+                            soul_speed:5,
+                            protection:10,
+                            feather_falling:10,
+                            thorns:10,
+                            depth_strider:5,
+                            unbreaking:10,
+                            mending:1
                         }
                     }
                 },
                 xp:8,
                 maxUses:9999999
             }
-
         ]
     }
 }
