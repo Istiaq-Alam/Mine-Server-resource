@@ -1,9 +1,9 @@
 # Mine-Server
 Custom mine-server with customizable VPS machine and C-Panel (24/7 Hosting System)
 ---
-
+   
 # Configure 
-
+    
 1. PANEL :-
 ```bash
 bash <(curl -fsSL https://raw.githubusercontent.com/SoloPlayzDev/skyport-installer/refs/heads/main/install.sh)
