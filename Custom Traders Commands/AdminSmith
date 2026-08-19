@@ -6,10 +6,14 @@
     },
     Invulnerable:1,
     PersistenceRequired:1,
-    Silent:1,
-    NoAI:1,
-    Rotation: [90f, 0f],
-    CustomName:Corrupted Smith,
+    Silent:0,
+    NoAI:0,
+    CustomName:"Corrupted Smith",
+active_effects: [
+    {id: regeneration, amplifier: 0, duration: 999999},
+    {id: health_boost, amplifier: 0, duration: 999999},
+    {id: conduit_power, amplifier: 0, duration: 999999}
+  ],
     Offers:{
         Recipes:[
             {
