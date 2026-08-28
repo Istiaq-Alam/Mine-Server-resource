@@ -1,0 +1,14 @@
+- DnT Nether Fortress Overhaul v3.1
+- battle_towers-1.3.0-1.21
+- DnT Woodland Mansion Overhual v2.1
+- DnT Pillager Outpost Overhaul v3.3
+- DnT Stronghold Overhaul v2.4.0
+- Nullscape_26.1_v1.2.20
+- spawnanimations-v1.11.5-mc1.17-26.2.9-datapack
+- Trek 1.21-26.2 B0.6.2
+- tectonic-datapack-3.0.25
+- Dungeons and Taverns v5.2.0
+- t_and_t-datapack-26.x
+- Katters Structures
+- Challenge Advancements Datapack 1.2 (MC 26.1.x)
+- BlazeandCave's Advancements Pack 1.20.3
