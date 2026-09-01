@@ -1,0 +1,20 @@
+/summon minecraft:horse ~ ~ ~ {
+    CustomName: 'Flexer',
+    Tame: 1b,
+    Variant: "white",
+    Attributes: [
+        {
+            id: "minecraft:movement_speed",
+            base: 0.3375
+        },
+        {
+            id: "minecraft:jump_strength",
+            base: 1.0
+        },
+        {
+            id: "minecraft:max_health",
+            base: 30.0
+        }
+    ],
+    Health: 30.0
+}
