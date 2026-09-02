@@ -1,6 +1,5 @@
 /summon minecraft:horse ~ ~ ~ {
     CustomName: 'Flexer',
-    Tame: 1b,
     Variant: "white",
     Attributes: [
         {
