@@ -1,7 +1,7 @@
 # Mine-Server-resources
 Custom mine-server with customizable VPS machine and C-Panel (24/7 Hosting System)
 ---
-   
+        
 # Configure 
     
 1. PANEL :-
