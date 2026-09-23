@@ -1,4 +1,5 @@
 # Datapack List for 21.1.2
+- [tectonic](https://modrinth.com/datapack/tectonic)
 - [Dungeons and Taverns](https://modrinth.com/datapack/dungeons-and-taverns)
 - [Dungeons and Taverns Ancient City Overhaul](https://modrinth.com/datapack/dungeons-and-taverns-ancient-city-overhaul)
 - [Dungeons and Taverns Stronghold Overhaul](https://modrinth.com/datapack/dungeons-and-taverns-stronghold-overhaul)
@@ -10,9 +11,8 @@
 - [Dungeons and Taverns Desert Temple Overhaul](https://modrinth.com/datapack/dungeons-and-taverns-desert-temple-overhaul)
 - [Dungeons and Taverns Nether Fortress Overhaul](https://modrinth.com/datapack/dungeons-and-taverns-nether-fortress-overhaul/gallery)
 - [Dungeons and Taverns Mineshaft Overhaul](https://modrinth.com/datapack/dungeons-and-taverns-mineshaft-overhaul)
-- [Big Globe Compat - Dungeons and Taverns](https://modrinth.com/datapack/big-globe-compat-dungeons-and-taverns)
 - [DnT Stellarity Compat](https://modrinth.com/datapack/dnt-stellarity-compat)
 - [Spawn Animations](https://modrinth.com/datapack/spawn-animations)
 - [Challenge Advancements](https://modrinth.com/datapack/challenge-advancements)
+- [Big Globe Compat - Dungeons and Taverns](https://modrinth.com/datapack/big-globe-compat-dungeons-and-taverns)
 - [Trek](https://modrinth.com/datapack/trek)
-- [tectonic](https://modrinth.com/datapack/tectonic)
