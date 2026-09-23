@@ -14,6 +14,6 @@
 - [Dungeons and Taverns Desert Temple Overhaul](https://modrinth.com/datapack/dungeons-and-taverns-desert-temple-overhaul)
 - [Dungeons and Taverns Nether Fortress Overhaul](https://modrinth.com/datapack/dungeons-and-taverns-nether-fortress-overhaul/gallery)
 - [Dungeons and Taverns Mineshaft Overhaul](https://modrinth.com/datapack/dungeons-and-taverns-mineshaft-overhaul)
-- [DnT Stellarity Compat](https://modrinth.com/datapack/dnt-stellarity-compat)
+- [DnT Stellarity Compat](https://modrinth.com/datapack/dnt-stellarity-compat) with Stellarity
 - [Spawn Animations](https://modrinth.com/datapack/spawn-animations)
 - [Challenge Advancements](https://modrinth.com/datapack/challenge-advancements)
