@@ -12,3 +12,5 @@
 - [Dungeons and Taverns Mineshaft Overhaul](https://modrinth.com/datapack/dungeons-and-taverns-mineshaft-overhaul)
 - [Big Globe Compat - Dungeons and Taverns](https://modrinth.com/datapack/big-globe-compat-dungeons-and-taverns)
 - [DnT Stellarity Compat](https://modrinth.com/datapack/dnt-stellarity-compat)
+- [Spawn Animations](https://modrinth.com/datapack/spawn-animations)
+- 
