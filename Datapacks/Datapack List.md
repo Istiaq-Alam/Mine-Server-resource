@@ -13,4 +13,6 @@
 - [Big Globe Compat - Dungeons and Taverns](https://modrinth.com/datapack/big-globe-compat-dungeons-and-taverns)
 - [DnT Stellarity Compat](https://modrinth.com/datapack/dnt-stellarity-compat)
 - [Spawn Animations](https://modrinth.com/datapack/spawn-animations)
-- 
+- [Challenge Advancements](https://modrinth.com/datapack/challenge-advancements)
+- [Trek](https://modrinth.com/datapack/trek)
+- [tectonic](https://modrinth.com/datapack/tectonic)
