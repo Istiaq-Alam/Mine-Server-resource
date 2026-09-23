@@ -1,5 +1,8 @@
 # Datapack List for 21.1.2
-- [tectonic](https://modrinth.com/datapack/tectonic)
+- [Continents](https://modrinth.com/datapack/continents) World Gen
+- [Grandscale](https://modrinth.com/datapack/grandscale)
+- [Tectonic](https://modrinth.com/datapack/tectonic) World Gen
+- [Terralith](https://modrinth.com/datapack/terralith) & [Terratonic](https://modrinth.com/datapack/terratonic) World Gen
 - [Dungeons and Taverns](https://modrinth.com/datapack/dungeons-and-taverns)
 - [Dungeons and Taverns Ancient City Overhaul](https://modrinth.com/datapack/dungeons-and-taverns-ancient-city-overhaul)
 - [Dungeons and Taverns Stronghold Overhaul](https://modrinth.com/datapack/dungeons-and-taverns-stronghold-overhaul)
